@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "juan-carlos-cebrian-amasifen",
     "name": "Juan Carlos Cebrian Amasifen",
@@ -13,11 +13,11 @@
     "role": "Professor / Principal Investigator",
     "category": "professor",
     "position": "Professor Doctor, Department of Electrical Energy and Automation",
-    "affiliation": "University of Sao Paulo (USP)",
-    "school": "Escola Politecnica",
+    "affiliation": "University of São Paulo (USP)",
+    "school": "Escola Politécnica",
     "department": "Department of Electrical Energy and Automation Engineering",
     "country": "Brazil",
-    "city": "Sao Paulo",
+    "city": "São Paulo",
     "email": "juan.cebrian@usp.br",
     "personal_website": "",
     "lab_page": "https://www.researchgate.net/profile/lab/Cebrian-Lab-Juan-Carlos-Cebrian",
@@ -39,24 +39,24 @@
       "Voltage Sags",
       "Power Interruptions"
     ],
-    "short_bio": "Juan Carlos Cebrian Amasifen is a professor at the University of Sao Paulo, Escola Politecnica, Department of Electrical Energy and Automation Engineering. His research focuses on power quality, distribution network planning, smart grids, Industry 4.0, Internet of Things, distributed energy resources, and optimization methods applied to modern electric power systems.",
-    "long_bio": "Juan Carlos Cebrian Amasifen received his BSc in Mechanical-Electrical Engineering from the Universidad Nacional de Ingenieria, Peru, his MSc in Electrical Engineering from Sao Paulo State University, Brazil, and his PhD in Electrical Engineering from the University of Sao Paulo. He carried out postdoctoral research at USP, UNICAMP, and UFABC, with international research stays at the University of Manchester and Virginia Tech. His research interests include power quality, distribution system planning, smart grids, Industry 4.0, Internet of Things, distributed energy resources, and optimization techniques.",
+    "short_bio": "Juan Carlos Cebrian Amasifen is a professor at the University of São Paulo, Escola Politécnica, Department of Electrical Energy and Automation Engineering. His research focuses on power quality, distribution network planning, smart grids, Industry 4.0, Internet of Things, distributed energy resources, and optimization methods applied to modern electric power systems.",
+    "long_bio": "Juan Carlos Cebrian Amasifen received his BSc in Mechanical-Electrical Engineering from the Universidad Nacional de Ingeniería, Peru, his MSc in Electrical Engineering from São Paulo State University, Brazil, and his PhD in Electrical Engineering from the University of São Paulo. He carried out postdoctoral research at USP, UNICAMP, and UFABC, with international research stays at the University of Manchester and Virginia Tech. His research interests include power quality, distribution system planning, smart grids, Industry 4.0, Internet of Things, distributed energy resources, and optimization techniques.",
     "education": [
       {
         "degree": "PhD in Electrical Engineering",
-        "institution": "University of Sao Paulo (USP)",
+        "institution": "University of São Paulo (USP)",
         "country": "Brazil",
         "year": 2008
       },
       {
         "degree": "MSc in Electrical Engineering",
-        "institution": "Sao Paulo State University (UNESP)",
+        "institution": "São Paulo State University (UNESP)",
         "country": "Brazil",
         "year": 2003
       },
       {
         "degree": "BSc in Mechanical-Electrical Engineering",
-        "institution": "Universidad Nacional de Ingenieria (UNI)",
+        "institution": "Universidad Nacional de Ingeniería (UNI)",
         "country": "Peru",
         "year": 2001
       },
@@ -64,7 +64,7 @@
         "degree": "Postdoctoral Research",
         "institution": "USP / UNICAMP / UFABC",
         "country": "Brazil",
-        "period": "2010-2017"
+        "period": "2010–2017"
       }
     ],
     "teaching": [
@@ -90,12 +90,12 @@
   "role": "PhD Researcher",
   "category": "phd_student",
   "position": "PhD Researcher / Researcher",
-  "affiliation": "University of Sao Paulo (USP)",
-  "school": "Escola Politecnica",
+  "affiliation": "University of São Paulo (USP)",
+  "school": "Escola Politécnica",
   "department": "Department of Electrical Energy and Automation Engineering",
   "research_group": "Cebrian Lab",
   "country": "Brazil",
-  "city": "Sao Paulo",
+  "city": "São Paulo",
   "email": "gustavo.morales-espinoza@usp.br",
   "personal_website": "",
   "institutional_profile": "",
@@ -118,23 +118,23 @@
     "Monte Carlo Simulation",
     "Power Systems Simulation"
   ],
-  "short_bio": "Gustavo Lino Morales Espinoza is a PhD researcher at the University of Sao Paulo, working on distribution network planning, hosting capacity, power quality, distributed energy resources, photovoltaic systems, battery energy storage, and optimization methods applied to electric power systems.",
-  "long_bio": "Gustavo Lino Morales Espinoza is a researcher associated with the University of Sao Paulo and Cebrian Lab. His research focuses on distribution expansion planning, hosting capacity assessment, smart grids, power quality, distributed photovoltaic generation, battery energy storage systems, and optimization techniques such as genetic algorithms and Monte Carlo simulation. His recent work includes methodologies for PV allocation, hosting capacity assessment with PV and BESS, and distribution expansion planning considering reliability indices, voltage sags, power interruptions, and sensitive industrial customers.",
+  "short_bio": "Gustavo Lino Morales Espinoza is a PhD researcher at the University of São Paulo, working on distribution network planning, hosting capacity, power quality, distributed energy resources, photovoltaic systems, battery energy storage, and optimization methods applied to electric power systems.",
+  "long_bio": "Gustavo Lino Morales Espinoza is a researcher associated with the University of São Paulo and Cebrian Lab. His research focuses on distribution expansion planning, hosting capacity assessment, smart grids, power quality, distributed photovoltaic generation, battery energy storage systems, and optimization techniques such as genetic algorithms and Monte Carlo simulation. His recent work includes methodologies for PV allocation, hosting capacity assessment with PV and BESS, and distribution expansion planning considering reliability indices, voltage sags, power interruptions, and sensitive industrial customers.",
   "education": [
     {
       "degree": "PhD in Electrical Engineering",
-      "institution": "University of Sao Paulo (USP)",
+      "institution": "University of São Paulo (USP)",
       "country": "Brazil",
       "status": "in progress"
     },
     {
       "degree": "MSc in Electrical Engineering",
-      "institution": "Sao Paulo State University (UNESP)",
+      "institution": "São Paulo State University (UNESP)",
       "country": "Brazil"
     },
     {
       "degree": "BSc in Engineering",
-      "institution": "Universidad Nacional de San Agustin de Arequipa",
+      "institution": "Universidad Nacional de San Agustín de Arequipa",
       "country": "Peru",
       "year": 2019
     }
@@ -166,12 +166,12 @@
   "role": "External Collaborator / PhD Researcher",
   "category": "external_collaborator",
   "position": "Professor and PhD Researcher in Electrical Engineering",
-  "affiliation": "Sao Paulo State University (UNESP)",
-  "secondary_affiliation": "Centro Estadual de Educacao Tecnologica Paula Souza",
+  "affiliation": "São Paulo State University (UNESP)",
+  "secondary_affiliation": "Centro Estadual de Educação Tecnológica Paula Souza",
   "department": "Department of Electrical Engineering",
   "research_group": "Cebrian Lab",
   "country": "Brazil",
-  "city": "Sao Paulo / Sorocaba",
+  "city": "São Paulo / Sorocaba",
   "email": "carlos.carneiro@unesp.br",
   "personal_website": "",
   "institutional_profile": "",
@@ -194,43 +194,43 @@
     "Electrotechnics"
   ],
   "short_bio": "Carlos Alberto Carneiro is an external collaborator associated with Cebrian Lab, working on power distribution systems, distributed generation, power quality, automated switch allocation, and optimization applied to distribution networks.",
-  "long_bio": "Carlos Alberto Carneiro holds a Master's degree in Electrical Engineering from Sao Paulo State University, with research focused on automated switch allocation in power distribution networks using a multiobjective approach. He is currently pursuing doctoral research in Electrical Engineering and works as a professor at Centro Estadual de Educacao Tecnologica Paula Souza in industrial automation and electrotechnics. His research interests include power distribution systems, distributed generation, power quality, voltage sags, power interruptions, reliability indicators, and optimization methods applied to distribution networks.",
+  "long_bio": "Carlos Alberto Carneiro holds a Master's degree in Electrical Engineering from São Paulo State University, with research focused on automated switch allocation in power distribution networks using a multiobjective approach. He is currently pursuing doctoral research in Electrical Engineering and works as a professor at Centro Estadual de Educação Tecnológica Paula Souza in industrial automation and electrotechnics. His research interests include power distribution systems, distributed generation, power quality, voltage sags, power interruptions, reliability indicators, and optimization methods applied to distribution networks.",
   "education": [
     {
       "degree": "PhD in Electrical Engineering",
-      "institution": "Sao Paulo State University (UNESP)",
+      "institution": "São Paulo State University (UNESP)",
       "country": "Brazil",
       "status": "in progress",
       "research_topic": "Automated switch allocation considering distributed energy resources in power distribution networks"
     },
     {
       "degree": "MSc in Electrical Engineering",
-      "institution": "Sao Paulo State University (UNESP)",
+      "institution": "São Paulo State University (UNESP)",
       "country": "Brazil",
       "year": 2021,
-      "thesis": "Alocacao de chaves automatizadas em redes eletricas de distribuicao: uma abordagem multiobjetivo"
+      "thesis": "Alocação de chaves automatizadas em redes elétricas de distribuição: uma abordagem multiobjetivo"
     },
     {
       "degree": "Specialization in Telecommunications Engineering",
-      "institution": "Sao Paulo State University (UNESP)",
+      "institution": "São Paulo State University (UNESP)",
       "country": "Brazil",
       "year": 2002
     },
     {
       "degree": "BSc in Production Engineering",
-      "institution": "Claretiano Centro Universitario",
+      "institution": "Claretiano Centro Universitário",
       "country": "Brazil",
       "year": 2017
     },
     {
       "degree": "Degree in Pedagogy",
-      "institution": "Faculdade de Ciencias Humanas de Aguai",
+      "institution": "Faculdade de Ciências Humanas de Aguaí",
       "country": "Brazil",
       "year": 2012
     },
     {
       "degree": "Technology in Electrical Systems - Electronics",
-      "institution": "Sao Paulo State University (UNESP)",
+      "institution": "São Paulo State University (UNESP)",
       "country": "Brazil",
       "year": 1991
     }
@@ -255,14 +255,14 @@
   "role": "MSc Student and Researcher",
   "category": "msc_student",
   "position": "MSc Researcher",
-  "affiliation": "University of Sao Paulo (USP)",
-  "school": "Escola Politecnica",
+  "affiliation": "University of São Paulo (USP)",
+  "school": "Escola Politécnica",
   "department": "Department of Electrical Energy and Automation Engineering",
   "research_group": "Cebrian Lab",
   "professional_affiliation": "Enel Brasil",
   "professional_area": "Technical Losses Team",
   "country": "Brazil",
-  "city": "Sao Paulo",
+  "city": "São Paulo",
   "email": "",
   "personal_website": "",
   "institutional_profile": "",
@@ -282,19 +282,19 @@
     "Machine Learning",
     "Artificial Intelligence"
   ],
-  "short_bio": "Rennard de Oliveira Brito is an MSc researcher at the University of Sao Paulo, working on distribution network expansion planning using OpenDSS, Python-based frameworks, and evolutionary algorithms.",
-  "long_bio": "Rennard de Oliveira Brito is an MSc researcher at the University of Sao Paulo (USP), Escola Politecnica. His research focuses on distribution network expansion planning with OpenDSS and Python-based frameworks, applying NSGA-II methods to address energy losses, reverse power flow, and voltage violations in Brazilian distribution systems. He also works at Enel Brasil on the technical losses team, contributing to Python tools for network analysis and optimization.",
+  "short_bio": "Rennard de Oliveira Brito is an MSc researcher at the University of São Paulo, working on distribution network expansion planning using OpenDSS, Python-based frameworks, and evolutionary algorithms.",
+  "long_bio": "Rennard de Oliveira Brito is an MSc researcher at the University of São Paulo (USP), Escola Politécnica. His research focuses on distribution network expansion planning with OpenDSS and Python-based frameworks, applying NSGA-II methods to address energy losses, reverse power flow, and voltage violations in Brazilian distribution systems. He also works at Enel Brasil on the technical losses team, contributing to Python tools for network analysis and optimization.",
   "education": [
     {
       "degree": "MSc in Electrical Engineering",
-      "institution": "University of Sao Paulo (USP)",
+      "institution": "University of São Paulo (USP)",
       "country": "Brazil",
-      "period": "2024-present",
+      "period": "2024–present",
       "status": "in progress"
     },
     {
       "degree": "BSc in Electrical Engineering",
-      "institution": "Uniao Educacional do Norte (Uninorte)",
+      "institution": "União Educacional do Norte (Uninorte)",
       "country": "Brazil",
       "year": 2018
     }
@@ -319,12 +319,12 @@
   "role": "PhD Researcher",
   "category": "phd_student",
   "position": "PhD Researcher",
-  "affiliation": "University of Sao Paulo (USP)",
-  "school": "Escola Politecnica",
+  "affiliation": "University of São Paulo (USP)",
+  "school": "Escola Politécnica",
   "department": "Department of Electrical Energy and Automation Engineering",
   "research_group": "Cebrian Lab",
   "country": "Brazil",
-  "city": "Sao Paulo",
+  "city": "São Paulo",
   "email": "",
   "personal_website": "",
   "institutional_profile": "",
@@ -353,23 +353,23 @@
     "Financial Losses",
     "OpenDSS & Python Simulation"
   ],
-  "short_bio": "David Koller Filiu is a PhD researcher at the University of Sao Paulo, working on power quality, short-duration voltage variations, Impact Factor estimation, and financial compensation analysis in electrical distribution networks.",
-  "long_bio": "David Koller Filiu is a PhD researcher at the University of Sao Paulo (USP). His research focuses on Power Quality, short-duration voltage variations (VTCD), and the estimation and minimization of financial compensation based on violations in the Impact Factor of VTCDs in electrical distribution networks. He develops Monte Carlo-based methodologies using OpenDSS and Python frameworks to address power quality violations in Brazilian distribution networks.",
+  "short_bio": "David Koller Filiu is a PhD researcher at the University of São Paulo, working on power quality, short-duration voltage variations, Impact Factor estimation, and financial compensation analysis in electrical distribution networks.",
+  "long_bio": "David Koller Filiu is a PhD researcher at the University of São Paulo (USP). His research focuses on Power Quality, short-duration voltage variations (VTCD), and the estimation and minimization of financial compensation based on violations in the Impact Factor of VTCDs in electrical distribution networks. He develops Monte Carlo-based methodologies using OpenDSS and Python frameworks to address power quality violations in Brazilian distribution networks.",
   "education": [
     {
       "degree": "PhD in Electrical Engineering",
       "field": "Power Systems",
-      "institution": "University of Sao Paulo (USP)",
+      "institution": "University of São Paulo (USP)",
       "country": "Brazil",
-      "period": "2025-present",
+      "period": "2025–present",
       "status": "in progress"
     },
     {
       "degree": "MSc in Electrical Engineering",
       "field": "AI applied to Power Systems",
-      "institution": "Sao Paulo State University (UNESP)",
+      "institution": "São Paulo State University (UNESP)",
       "country": "Brazil",
-      "period": "2021-2024"
+      "period": "2021–2024"
     },
     {
       "degree": "BSc in Electrical Engineering",
@@ -404,11 +404,11 @@
   "role": "PhD Researcher",
   "category": "phd_student",
   "position": "PhD Student",
-  "affiliation": "Sao Paulo State University (UNESP)",
-  "secondary_affiliation": "Federal Institute of Sao Paulo (IFSP)",
+  "affiliation": "São Paulo State University (UNESP)",
+  "secondary_affiliation": "Federal Institute of São Paulo (IFSP)",
   "research_group": "Cebrian Lab",
   "country": "Brazil",
-  "city": "Sao Paulo / Sorocaba",
+  "city": "São Paulo / Sorocaba",
   "email": "",
   "personal_website": "",
   "institutional_profile": "https://integra.ifsp.edu.br/portfolio/pessoas/jairo-giacomini-junior",
@@ -435,7 +435,7 @@
   "education": [
     {
       "degree": "MSc in Engineering",
-      "institution": "Sao Paulo State University (UNESP)",
+      "institution": "São Paulo State University (UNESP)",
       "country": "Brazil"
     }
   ],
@@ -465,12 +465,12 @@
   "role": "MSc Researcher",
   "category": "msc_researcher",
   "position": "MSc Researcher",
-  "affiliation": "Sao Paulo State University (UNESP)",
+  "affiliation": "São Paulo State University (UNESP)",
   "school": "Institute of Science and Technology",
-  "department": "Campus de Sorocaba",
+  "department": "Câmpus de Sorocaba",
   "research_group": "Cebrian Lab",
   "country": "Brazil",
-  "city": "Sorocaba / Sao Paulo",
+  "city": "Sorocaba / São Paulo",
   "email": "",
   "personal_website": "",
   "institutional_profile": "",
@@ -495,13 +495,13 @@
   "education": [
     {
       "degree": "MSc in Electrical Engineering",
-      "institution": "Sao Paulo State University (UNESP)",
+      "institution": "São Paulo State University (UNESP)",
       "country": "Brazil",
       "year": 2024
     },
     {
       "degree": "BSc in Electrical Engineering",
-      "institution": "Federal University of Goias (UFG)",
+      "institution": "Federal University of Goiás (UFG)",
       "country": "Brazil",
       "year": 2018
     }
@@ -519,5 +519,3 @@
   "last_checked": "2026-05-19"
 }
 ]
-
-

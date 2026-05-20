@@ -1,650 +1,1055 @@
-﻿[
-    {
-        "id":  "10.1109-access-2026-3680294",
-        "title":  "Technical Aspects for Smart Grids Interoperability: Internet of Things and IEC 61850 as Key Enablers",
-        "year":  2026,
-        "type":  "journal-article",
-        "venue":  "IEEE Access",
-        "doi":  "10.1109/ACCESS.2026.3680294",
-        "authors":  [
-                        "Bruno Oliveira Zarpellon",
-                        "Juan Sebastian Gomez",
-                        "Paulo Fernando Silva",
-                        "Juan Carlos Cebrian Amasifen",
-                        "Luis de Oro Arenas",
-                        "Helmo K. Morales Paredes"
-                    ],
-        "related_members":  [
-                                "juan-carlos-cebrian-amasifen"
-                            ],
-        "keywords":  [
-                         "Smart Grids",
-                         "Interoperability",
-                         "Internet of Things",
-                         "IEC 61850"
-                     ],
-        "source":  "ORCID / ResearchGate / IEEE metadata",
-        "doi_verified":  true,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "id":  "10.24084-reepqj25-559",
-        "title":  "A Stochastic Methodology for PV System Allocation in Power Distribution Networks",
-        "year":  2026,
-        "type":  "journal-article",
-        "venue":  "Renewable Energies Environment and Power Quality Journal",
-        "doi":  "10.24084/reepqj25-559",
-        "authors":  [
-                        "Gustavo Lino Morales Espinoza",
-                        "Ferdinando Crispino",
-                        "Leandro Oliveira Martins",
-                        "Juan Carlos Cebrian"
-                    ],
-        "related_members":  [
-                                "juan-carlos-cebrian-amasifen"
-                            ],
-        "keywords":  [
-                         "PV Systems",
-                         "Distribution Networks",
-                         "Hosting Capacity",
-                         "Monte Carlo"
-                     ],
-        "source":  "ResearchGate",
-        "doi_verified":  true,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "id":  "stochastic-methodology-economic-impact-2026",
-        "title":  "Stochastic Methodology to Estimate the Economic Impact of Voltage Sags and Power Interruptions on Sensitive Industrial Customers",
-        "year":  2026,
-        "type":  "book-chapter",
-        "venue":  "",
-        "doi":  "",
-        "authors":  [
-                        "Juan Carlos Cebrian"
-                    ],
-        "related_members":  [
-                                "juan-carlos-cebrian-amasifen"
-                            ],
-        "keywords":  [
-                         "Voltage Sags",
-                         "Power Interruptions",
-                         "Sensitive Industrial Customers",
-                         "Power Quality"
-                     ],
-        "source":  "ResearchGate / ORCID",
-        "doi_verified":  false,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "id":  "10.1016-j-rser-2025-115885",
-        "title":  "Fueling the Transition: A Comprehensive Analysis of Hydrogen Roadmaps in Chile, Brazil and Colombia",
-        "year":  2025,
-        "type":  "journal-article",
-        "venue":  "Renewable and Sustainable Energy Reviews",
-        "doi":  "10.1016/j.rser.2025.115885",
-        "authors":  [
-                        "Juan S. Gomez",
-                        "Luis G. Marin",
-                        "Helmo K. Morales Paredes",
-                        "Ana Llor",
-                        "Victor Hincapie",
-                        "Jose Vuelvas",
-                        "Alex Navas",
-                        "Claudio Burgos",
-                        "Lucas Samuel de Lima Tiburcio",
-                        "Paulo Fernando Silva",
-                        "Luis Armando de Oro Arenas",
-                        "Juan Carlos Cebrian Amasifen"
-                    ],
-        "related_members":  [
-                                "juan-carlos-cebrian-amasifen"
-                            ],
-        "keywords":  [
-                         "Hydrogen",
-                         "Energy Transition",
-                         "Roadmaps",
-                         "Latin America"
-                     ],
-        "source":  "ScienceDirect / RePEc / institutional metadata",
-        "doi_verified":  true,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "id":  "10.1016-j-epsr-2025-111773",
-        "title":  "A Novel Stochastic Methodology to Estimate the Impact Factor Due to Short-Duration Voltage Variations in Power Distribution Networks",
-        "year":  2025,
-        "type":  "journal-article",
-        "venue":  "Electric Power Systems Research",
-        "doi":  "10.1016/j.epsr.2025.111773",
-        "authors":  [
-                        "David Koller Filiu",
-                        "Juan Carlos Cebrian"
-                    ],
-        "related_members":  [
-                                "juan-carlos-cebrian-amasifen"
-                            ],
-        "keywords":  [
-                         "Voltage Sags",
-                         "Short-Duration Voltage Variations",
-                         "Power Quality",
-                         "Distribution Networks"
-                     ],
-        "source":  "ScienceDirect / ResearchGate / ORCID",
-        "doi_verified":  true,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "id":  "10.1109-induscon66435-2025-11241860",
-        "title":  "Stochastic Assessment of Hosting Capacity with Distributed PV and Battery Storage Using Monte Carlo Simulation",
-        "year":  2025,
-        "type":  "conference-paper",
-        "venue":  "2025 16th IEEE International Conference on Industry Applications (INDUSCON)",
-        "doi":  "10.1109/INDUSCON66435.2025.11241860",
-        "authors":  [
-                        "Gustavo Lino Morales Espinoza",
-                        "Ferdinando Crispino",
-                        "Mauricio B. C. Salles",
-                        "Juan Carlos Cebrian"
-                    ],
-        "related_members":  [
-                                "juan-carlos-cebrian-amasifen"
-                            ],
-        "keywords":  [
-                         "Hosting Capacity",
-                         "PV",
-                         "Battery Energy Storage",
-                         "Monte Carlo Simulation",
-                         "Distribution Networks"
-                     ],
-        "source":  "ResearchGate / IEEE metadata",
-        "doi_verified":  true,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "id":  "adaptive-ga-dep-sensitive-industrial-customers-2025",
-        "title":  "Adaptive Genetic Algorithm for Distribution Expansion Planning Considering Sensitive Industrial Customers",
-        "year":  2025,
-        "type":  "conference-paper",
-        "venue":  "INDUSCON 2025",
-        "doi":  "",
-        "authors":  [
-                        "Gustavo Lino Morales Espinoza",
-                        "Ferdinando Crispino",
-                        "Mauricio B. C. Salles",
-                        "Juan Carlos Cebrian"
-                    ],
-        "related_members":  [
-                                "juan-carlos-cebrian-amasifen"
-                            ],
-        "keywords":  [
-                         "Genetic Algorithm",
-                         "Distribution Expansion Planning",
-                         "Sensitive Customers",
-                         "Voltage Sags",
-                         "Power Interruptions"
-                     ],
-        "source":  "ResearchGate",
-        "doi_verified":  false,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "id":  "10.36227-techrxiv-176304993-32470095",
-        "title":  "A Dynamic Multi-Criteria Framework for Consumer Prioritization in Adaptive Network Restoration",
-        "year":  2025,
-        "type":  "preprint",
-        "venue":  "TechRxiv",
-        "doi":  "10.36227/techrxiv.176304993.32470095",
-        "authors":  [
-                        "Gabriela Batista Silva",
-                        "Juan Carlos Cebrian",
-                        "Helmo Kelis Morales Paredes",
-                        "Hermom Leal Moreira"
-                    ],
-        "related_members":  [
-                                "juan-carlos-cebrian-amasifen"
-                            ],
-        "keywords":  [
-                         "Network Restoration",
-                         "Consumer Prioritization",
-                         "Multi-Criteria Decision Making",
-                         "Distribution Systems"
-                     ],
-        "source":  "TechRxiv / ORCID",
-        "doi_verified":  true,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "id":  "10.1109-induscon66435-2025-11241836",
-        "title":  "Energy Efficiency and Sustainable Development in the Legal Amazon: A DEA Approach",
-        "year":  2025,
-        "type":  "conference-paper",
-        "venue":  "2025 16th IEEE International Conference on Industry Applications (INDUSCON)",
-        "doi":  "10.1109/INDUSCON66435.2025.11241836",
-        "authors":  [
-                        "Lucas Samuel de Lima Tiburcio",
-                        "Paulo Fernando Silva",
-                        "Alex Ferreira Silva",
-                        "Luis de Oro Arenas",
-                        "Juan Carlos Cebrian",
-                        "Helmo Kelis Morales Paredes"
-                    ],
-        "related_members":  [
-                                "juan-carlos-cebrian-amasifen"
-                            ],
-        "keywords":  [
-                         "Energy Efficiency",
-                         "Sustainable Development",
-                         "DEA",
-                         "Legal Amazon"
-                     ],
-        "source":  "IEEE / institutional publication list",
-        "doi_verified":  true,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "id":  "10.52152-4554",
-        "title":  "A Stochastic Methodology for PV System Allocation in Power Distribution Networks",
-        "year":  2025,
-        "type":  "journal-article",
-        "venue":  "Renewable Energy and Power Quality Journal",
-        "doi":  "10.52152/4554",
-        "authors":  [
-                        "Gustavo Lino Morales Espinoza",
-                        "Nelson Kagan",
-                        "Luiz Henrique Leite Rosa",
-                        "Luis Felipe Normandia Lourenco",
-                        "Renato Machado Monaro",
-                        "Carlos Frederico Meschini Almeida",
-                        "Mauricio B. C. Salles",
-                        "Leandro Martins",
-                        "Ferdinando Crispino",
-                        "Juan Carlos Cebrian"
-                    ],
-        "related_members":  [
-                                "juan-carlos-cebrian-amasifen"
-                            ],
-        "keywords":  [
-                         "PV Systems",
-                         "Hosting Capacity",
-                         "Distribution Networks",
-                         "Stochastic Simulation"
-                     ],
-        "source":  "ResearchGate / RE\u0026PQJ metadata",
-        "doi_verified":  true,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "id":  "10.1109-gtdla61236-2024-10913952",
-        "title":  "An Algorithm Based on Consensus for Active Power Sharing and Voltage Regulation Within Electrical Distribution Networks",
-        "year":  2024,
-        "type":  "conference-paper",
-        "venue":  "2024 IEEE PES Generation, Transmission and Distribution Latin America Conference and Industrial Exposition",
-        "doi":  "10.1109/GTDLA61236.2024.10913952",
-        "authors":  [
-                        "Jairo Giacomini Jr",
-                        "Juan Carlos Cebrian",
-                        "Helmo K. Morales Paredes"
-                    ],
-        "related_members":  [
-                                "juan-carlos-cebrian-amasifen"
-                            ],
-        "keywords":  [
-                         "Consensus Algorithm",
-                         "Voltage Regulation",
-                         "Distributed Generation",
-                         "Distribution Networks"
-                     ],
-        "source":  "eduCapes / institutional publication list",
-        "doi_verified":  true,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "id":  "10.20906-cba2024-4182",
-        "title":  "A Genetic Algorithm for Distribution Expansion Planning Considering Financial Losses Due to Voltage Sags and Power Interruptions",
-        "year":  2024,
-        "type":  "conference-paper",
-        "venue":  "Congresso Brasileiro de Automatica - CBA 2024",
-        "doi":  "10.20906/CBA2024/4182",
-        "authors":  [
-                        "Gustavo Lino Morales Espinoza",
-                        "Juan Carlos Cebrian"
-                    ],
-        "related_members":  [
-                                "juan-carlos-cebrian-amasifen"
-                            ],
-        "keywords":  [
-                         "Genetic Algorithm",
-                         "Distribution Expansion Planning",
-                         "Voltage Sags",
-                         "Power Interruptions",
-                         "Financial Losses"
-                     ],
-        "source":  "SBA / ResearchGate",
-        "doi_verified":  true,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "id":  "10.20906-cba2024-4822",
-        "title":  "Optimizing Distribution Expansion Planning: Integrating SAIDI and SAIFI Indices with Genetic Algorithms",
-        "year":  2024,
-        "type":  "conference-paper",
-        "venue":  "Congresso Brasileiro de Automatica - CBA 2024",
-        "doi":  "10.20906/CBA2024/4822",
-        "authors":  [
-                        "Gustavo Lino Morales Espinoza",
-                        "Juan Carlos Cebrian"
-                    ],
-        "related_members":  [
-                                "juan-carlos-cebrian-amasifen"
-                            ],
-        "keywords":  [
-                         "Distribution Expansion Planning",
-                         "SAIDI",
-                         "SAIFI",
-                         "Genetic Algorithm",
-                         "Reliability"
-                     ],
-        "source":  "ResearchGate",
-        "doi_verified":  true,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "id":  "10.52152-3915",
-        "title":  "Distribution Expansion Planning of Electrical Networks Considering Electrical Losses and Financial Losses Due to Voltage Sags and Interruptions",
-        "year":  2024,
-        "type":  "journal-article",
-        "venue":  "Renewable Energy and Power Quality Journal",
-        "doi":  "10.52152/3915",
-        "authors":  [
-                        "Gustavo Lino Morales Espinoza",
-                        "Juan Carlos Cebrian"
-                    ],
-        "related_members":  [
-                                "juan-carlos-cebrian-amasifen"
-                            ],
-        "keywords":  [
-                         "Distribution Expansion Planning",
-                         "Electrical Losses",
-                         "Financial Losses",
-                         "Voltage Sags",
-                         "Power Interruptions"
-                     ],
-        "source":  "ResearchGate / RE\u0026PQJ metadata",
-        "doi_verified":  true,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "id":  "10.1109-tpwrd-2024-3358999",
-        "title":  "Methodology to Estimate the Financial Impacts of the Integration of PV Generators in Distribution Systems on Voltage Sags and Energy Losses",
-        "year":  2024,
-        "type":  "journal-article",
-        "venue":  "IEEE Transactions on Power Delivery",
-        "doi":  "10.1109/TPWRD.2024.3358999",
-        "authors":  [
-                        "Juan Carlos Cebrian",
-                        "Jairo Giacomini Jr",
-                        "Andre Luis Debiaso Rossi",
-                        "Fernanda C. L. Trindade",
-                        "Helmo K. Morales Paredes"
-                    ],
-        "related_members":  [
-                                "juan-carlos-cebrian-amasifen"
-                            ],
-        "keywords":  [
-                         "PV Generators",
-                         "Voltage Sags",
-                         "Energy Losses",
-                         "Power Quality",
-                         "Distribution Systems"
-                     ],
-        "source":  "IEEE / ResearchGate / institutional publication list",
-        "doi_verified":  true,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "id":  "10.1109-wcnps60622-2023-10344775",
-        "title":  "Investigation of Capacitor Influence in the Impact Factor Index Estimation Due to Voltage Sags and Swells in Distribution Networks",
-        "year":  2023,
-        "type":  "conference-paper",
-        "venue":  "2023 Workshop on Communication Networks and Power Systems (WCNPS)",
-        "doi":  "10.1109/WCNPS60622.2023.10344775",
-        "authors":  [
-                        "David Koller Filiu",
-                        "Juan Carlos Cebrian"
-                    ],
-        "related_members":  [
-                                "juan-carlos-cebrian-amasifen"
-                            ],
-        "keywords":  [
-                         "Capacitors",
-                         "Voltage Sags",
-                         "Voltage Swells",
-                         "Impact Factor",
-                         "Distribution Networks"
-                     ],
-        "source":  "eduCapes / OasisBR",
-        "doi_verified":  true,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "id":  "10.1109-access-2023-3243552",
-        "title":  "A Novel Methodology to Estimate Probability Density Function of Voltage Sag Duration and Failure Rates on Power Distribution Systems",
-        "year":  2023,
-        "type":  "journal-article",
-        "venue":  "IEEE Access",
-        "doi":  "10.1109/ACCESS.2023.3243552",
-        "authors":  [
-                        "Juan Carlos Cebrian",
-                        "Jairo Giacomini Jr",
-                        "Carlos Alberto Carneiro",
-                        "Gabriela B. Silva",
-                        "Helmo K. Morales Paredes"
-                    ],
-        "related_members":  [
-                                "juan-carlos-cebrian-amasifen"
-                            ],
-        "keywords":  [
-                         "Voltage Sag Duration",
-                         "Failure Rates",
-                         "Power Distribution Systems",
-                         "Power Quality"
-                     ],
-        "source":  "IEEE Access / UNESP Repository / ORCID",
-        "doi_verified":  true,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "id":  "10.24084-reepqj24-110",
-        "title":  "Distribution Expansion Planning of Electrical Networks Considering Electrical Losses and Financial Losses Due to Voltage Sags and Interruptions",
-        "year":  2026,
-        "type":  "journal-article",
-        "venue":  "Renewable Energies Environment and Power Quality Journal",
-        "volume_issue_pages":  "24(1):60-65",
-        "doi":  "10.24084/reepqj24-110",
-        "url":  "https://doi.org/10.24084/reepqj24-110",
-        "authors":  [
-                        "Gustavo Lino Morales Espinoza",
-                        "Juan Carlos Cebrian"
-                    ],
-        "related_members":  [
-                                "gustavo-lino-morales-espinoza",
-                                "juan-carlos-cebrian-amasifen"
-                            ],
-        "keywords":  [
-                         "Distribution Expansion Planning",
-                         "Genetic Algorithm",
-                         "Electrical Losses",
-                         "Voltage Sags",
-                         "Power Interruptions",
-                         "Financial Losses"
-                     ],
-        "source":  "ResearchGate / RE\u0026PQJ",
-        "doi_verified":  true,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "id":  "10.1109-induscon66435-2025-11241329",
-        "title":  "Adaptive Genetic Algorithm for Distribution Expansion Planning Considering Sensitive Industrial Customers",
-        "year":  2025,
-        "type":  "conference-paper",
-        "venue":  "2025 16th IEEE International Conference on Industry Applications (INDUSCON)",
-        "doi":  "10.1109/INDUSCON66435.2025.11241329",
-        "url":  "https://doi.org/10.1109/INDUSCON66435.2025.11241329",
-        "authors":  [
-                        "Gustavo Lino Morales Espinoza",
-                        "Ferdinando Crispino",
-                        "Mauricio B. C. Salles",
-                        "Carlos F. M. Almeida",
-                        "Juan Carlos Cebrian"
-                    ],
-        "related_members":  [
-                                "gustavo-lino-morales-espinoza",
-                                "juan-carlos-cebrian-amasifen"
-                            ],
-        "keywords":  [
-                         "Adaptive Genetic Algorithm",
-                         "Distribution Expansion Planning",
-                         "Sensitive Industrial Customers",
-                         "Power Quality",
-                         "Voltage Sags",
-                         "Power Interruptions"
-                     ],
-        "source":  "ResearchGate / IEEE metadata",
-        "doi_verified":  true,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "id":  "10.29327-27640582-815041",
-        "title":  "DVR para Mitigacao de Afundamento de Tensao em Aplicacoes Industriais",
-        "year":  2024,
-        "type":  "conference-paper",
-        "venue":  "V Congresso Brasileiro Interdisciplinar em Ciencia e Tecnologia",
-        "doi":  "10.29327/27640582.815041",
-        "url":  "https://doi.org/10.29327/27640582.815041",
-        "authors":  [
-                        "Gustavo Lino Morales Espinoza",
-                        "Lucas Samuel De Lima Tiburcio"
-                    ],
-        "related_members":  [
-                                "gustavo-lino-morales-espinoza"
-                            ],
-        "keywords":  [
-                         "Dynamic Voltage Restorer",
-                         "Voltage Sag",
-                         "Power Quality",
-                         "Industrial Applications"
-                     ],
-        "source":  "ResearchGate",
-        "doi_verified":  true,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "title":  "Impact of Distributed Energy Resources on Fault Location, Isolation, and Service Restoration",
-        "year":  2022,
-        "type":  "conference-paper",
-        "doi":  "10.1109/PMAPS53380.2022.9810565",
-        "venue":  "2022 17th International Conference on Probabilistic Methods Applied to Power Systems (PMAPS)"
-    },
-    {
-        "title":  "Automated Switch Placement in Power Distribution Systems: Analysis of Binary PSO Parameters",
-        "year":  2022,
-        "type":  "conference-paper"
-    },
-    {
-        "title":  "Analise Comparativa da Aplicacao das Metodologias de Protecao Salva Fusivel e Queima Fusivel no Desempenho das Redes Eletricas de Distribuicao",
-        "year":  2020,
-        "type":  "conference-paper"
-    },
-    {
-        "id":  "10.1109-induscon66435-2025-11241257",
-        "title":  "A Comparative Study of Olfati-Saber and Supportive Consensus Algorithms for Voltage Regulation in Distribution Systems",
-        "year":  2025,
-        "type":  "conference-paper",
-        "venue":  "2025 16th IEEE International Conference on Industry Applications (INDUSCON)",
-        "volume_issue_pages":  "pp. 251-257",
-        "doi":  "10.1109/INDUSCON66435.2025.11241257",
-        "url":  "https://doi.org/10.1109/INDUSCON66435.2025.11241257",
-        "authors":  [
-                        "Jairo Giacomini Jr",
-                        "Paulo Fernando Silva",
-                        "Juan Carlos Cebrian",
-                        "Helmo Kelis Morales Paredes"
-                    ],
-        "related_members":  [
-                                "jairo-giacomini-jr",
-                                "juan-carlos-cebrian-amasifen"
-                            ],
-        "keywords":  [
-                         "Consensus Algorithms",
-                         "Voltage Regulation",
-                         "Distribution Systems",
-                         "Distributed Generation",
-                         "Smart Grids"
-                     ],
-        "source":  "ResearchGate / Helmo Morales Paredes publication list",
-        "doi_verified":  true,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "id":  "10.1109-gpecom65896-2025-11061898",
-        "title":  "Voltage Regulation in Distribution Network Using Consensus-Based Algorithm: Impact of Different Communication Topologies and DG Power Variations",
-        "year":  2025,
-        "type":  "conference-paper",
-        "venue":  "2025 7th Global Power, Energy and Communication Conference (GPECOM)",
-        "doi":  "10.1109/GPECOM65896.2025.11061898",
-        "url":  "https://doi.org/10.1109/GPECOM65896.2025.11061898",
-        "authors":  [
-                        "Jairo Giacomini",
-                        "Juan Carlos Cebrian",
-                        "Helmo Kelis Morales Paredes"
-                    ],
-        "related_members":  [
-                                "jairo-giacomini-jr",
-                                "juan-carlos-cebrian-amasifen"
-                            ],
-        "keywords":  [
-                         "Voltage Regulation",
-                         "Consensus-Based Algorithm",
-                         "Communication Topologies",
-                         "Distributed Generation",
-                         "Distribution Networks"
-                     ],
-        "source":  "ORCID-linked metadata / ResearchGate",
-        "doi_verified":  true,
-        "last_checked":  "2026-05-19"
-    },
-    {
-        "id":  "10.1109-gtdla61236-2024-10913879",
-        "title":  "Resilience Analysis of the Consensus Algorithm in Microgrids with Distributed Controllers Testing for Communication Link Failure",
-        "year":  2024,
-        "type":  "conference-paper",
-        "venue":  "2024 IEEE PES Generation, Transmission and Distribution Latin America Conference and Industrial Exposition",
-        "doi":  "10.1109/GTDLA61236.2024.10913879",
-        "url":  "https://doi.org/10.1109/GTDLA61236.2024.10913879",
-        "authors":  [
-                        "Paulo Fernando Silva",
-                        "Jairo Giacomini Jr",
-                        "Jakson Bonaldo",
-                        "Luis de Oro Arenas",
-                        "Jose de Arimateia O. Filho",
-                        "Helmo Kelis Morales Paredes"
-                    ],
-        "related_members":  [
-                                "jairo-giacomini-jr"
-                            ],
-        "keywords":  [
-                         "Consensus Algorithm",
-                         "Microgrids",
-                         "Distributed Controllers",
-                         "Communication Link Failure",
-                         "Power Quality",
-                         "Distributed Control"
-                     ],
-        "source":  "eduCAPES / Helmo Morales Paredes publication list",
-        "doi_verified":  true,
-        "last_checked":  "2026-05-19"
-    }
+[
+  {
+    "id": "10.1109-access-2026-3680294",
+    "title": "Technical Aspects for Smart Grids Interoperability: Internet of Things and IEC 61850 as Key Enablers",
+    "year": 2026,
+    "type": "journal-article",
+    "venue": "IEEE Access",
+    "doi": "10.1109/ACCESS.2026.3680294",
+    "authors": [
+      "Bruno Oliveira Zarpellon",
+      "Juan Sebastián Gómez",
+      "Paulo Fernando Silva",
+      "Juan Carlos Cebrian Amasifen",
+      "Luis de Oro Arenas",
+      "Helmo K. Morales Paredes"
+    ],
+    "related_members": [
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Smart Grids",
+      "Interoperability",
+      "Internet of Things",
+      "IEC 61850"
+    ],
+    "source": "ORCID / ResearchGate / IEEE metadata",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.24084-reepqj25-559",
+    "title": "A Stochastic Methodology for PV System Allocation in Power Distribution Networks",
+    "year": 2026,
+    "type": "journal-article",
+    "venue": "Renewable Energies Environment and Power Quality Journal",
+    "doi": "10.24084/reepqj25-559",
+    "authors": [
+      "Gustavo Lino Morales Espinoza",
+      "Ferdinando Crispino",
+      "Leandro Oliveira Martins",
+      "Juan Carlos Cebrian"
+    ],
+    "related_members": [
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "PV Systems",
+      "Distribution Networks",
+      "Hosting Capacity",
+      "Monte Carlo"
+    ],
+    "source": "ResearchGate",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "stochastic-methodology-economic-impact-2026",
+    "title": "Stochastic Methodology to Estimate the Economic Impact of Voltage Sags and Power Interruptions on Sensitive Industrial Customers",
+    "year": 2026,
+    "type": "book-chapter",
+    "venue": "",
+    "doi": "",
+    "authors": [
+      "Juan Carlos Cebrian"
+    ],
+    "related_members": [
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Voltage Sags",
+      "Power Interruptions",
+      "Sensitive Industrial Customers",
+      "Power Quality"
+    ],
+    "source": "ResearchGate / ORCID",
+    "doi_verified": false,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.1016-j-rser-2025-115885",
+    "title": "Fueling the Transition: A Comprehensive Analysis of Hydrogen Roadmaps in Chile, Brazil and Colombia",
+    "year": 2025,
+    "type": "journal-article",
+    "venue": "Renewable and Sustainable Energy Reviews",
+    "doi": "10.1016/j.rser.2025.115885",
+    "authors": [
+      "Juan S. Gómez",
+      "Luis G. Marín",
+      "Helmo K. Morales Paredes",
+      "Ana Llor",
+      "Victor Hincapié",
+      "José Vuelvas",
+      "Alex Navas",
+      "Claudio Burgos",
+      "Lucas Samuel de Lima Tibúrcio",
+      "Paulo Fernando Silva",
+      "Luis Armando de Oro Arenas",
+      "Juan Carlos Cebrian Amasifen"
+    ],
+    "related_members": [
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Hydrogen",
+      "Energy Transition",
+      "Roadmaps",
+      "Latin America"
+    ],
+    "source": "ScienceDirect / RePEc / institutional metadata",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.1016-j-epsr-2025-111773",
+    "title": "A Novel Stochastic Methodology to Estimate the Impact Factor Due to Short-Duration Voltage Variations in Power Distribution Networks",
+    "year": 2025,
+    "type": "journal-article",
+    "venue": "Electric Power Systems Research",
+    "doi": "10.1016/j.epsr.2025.111773",
+    "authors": [
+      "David Koller Filiu",
+      "Juan Carlos Cebrian"
+    ],
+    "related_members": [
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Voltage Sags",
+      "Short-Duration Voltage Variations",
+      "Power Quality",
+      "Distribution Networks"
+    ],
+    "source": "ScienceDirect / ResearchGate / ORCID",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.1109-induscon66435-2025-11241860",
+    "title": "Stochastic Assessment of Hosting Capacity with Distributed PV and Battery Storage Using Monte Carlo Simulation",
+    "year": 2025,
+    "type": "conference-paper",
+    "venue": "2025 16th IEEE International Conference on Industry Applications (INDUSCON)",
+    "doi": "10.1109/INDUSCON66435.2025.11241860",
+    "authors": [
+      "Gustavo Lino Morales Espinoza",
+      "Ferdinando Crispino",
+      "Maurício B. C. Salles",
+      "Juan Carlos Cebrian"
+    ],
+    "related_members": [
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Hosting Capacity",
+      "PV",
+      "Battery Energy Storage",
+      "Monte Carlo Simulation",
+      "Distribution Networks"
+    ],
+    "source": "ResearchGate / IEEE metadata",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "adaptive-ga-dep-sensitive-industrial-customers-2025",
+    "title": "Adaptive Genetic Algorithm for Distribution Expansion Planning Considering Sensitive Industrial Customers",
+    "year": 2025,
+    "type": "conference-paper",
+    "venue": "INDUSCON 2025",
+    "doi": "",
+    "authors": [
+      "Gustavo Lino Morales Espinoza",
+      "Ferdinando Crispino",
+      "Maurício B. C. Salles",
+      "Juan Carlos Cebrian"
+    ],
+    "related_members": [
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Genetic Algorithm",
+      "Distribution Expansion Planning",
+      "Sensitive Customers",
+      "Voltage Sags",
+      "Power Interruptions"
+    ],
+    "source": "ResearchGate",
+    "doi_verified": false,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.36227-techrxiv-176304993-32470095",
+    "title": "A Dynamic Multi-Criteria Framework for Consumer Prioritization in Adaptive Network Restoration",
+    "year": 2025,
+    "type": "preprint",
+    "venue": "TechRxiv",
+    "doi": "10.36227/techrxiv.176304993.32470095",
+    "authors": [
+      "Gabriela Batista Silva",
+      "Juan Carlos Cebrian",
+      "Helmo Kelis Morales Paredes",
+      "Hermom Leal Moreira"
+    ],
+    "related_members": [
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Network Restoration",
+      "Consumer Prioritization",
+      "Multi-Criteria Decision Making",
+      "Distribution Systems"
+    ],
+    "source": "TechRxiv / ORCID",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.1109-induscon66435-2025-11241836",
+    "title": "Energy Efficiency and Sustainable Development in the Legal Amazon: A DEA Approach",
+    "year": 2025,
+    "type": "conference-paper",
+    "venue": "2025 16th IEEE International Conference on Industry Applications (INDUSCON)",
+    "doi": "10.1109/INDUSCON66435.2025.11241836",
+    "authors": [
+      "Lucas Samuel de Lima Tibúrcio",
+      "Paulo Fernando Silva",
+      "Alex Ferreira Silva",
+      "Luis de Oro Arenas",
+      "Juan Carlos Cebrian",
+      "Helmo Kelis Morales Paredes"
+    ],
+    "related_members": [
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Energy Efficiency",
+      "Sustainable Development",
+      "DEA",
+      "Legal Amazon"
+    ],
+    "source": "IEEE / institutional publication list",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.52152-4554",
+    "title": "A Stochastic Methodology for PV System Allocation in Power Distribution Networks",
+    "year": 2025,
+    "type": "journal-article",
+    "venue": "Renewable Energy and Power Quality Journal",
+    "doi": "10.52152/4554",
+    "authors": [
+      "Gustavo Lino Morales Espinoza",
+      "Nelson Kagan",
+      "Luiz Henrique Leite Rosa",
+      "Luís Felipe Normandia Lourenço",
+      "Renato Machado Monaro",
+      "Carlos Frederico Meschini Almeida",
+      "Maurício B. C. Salles",
+      "Leandro Martins",
+      "Ferdinando Crispino",
+      "Juan Carlos Cebrian"
+    ],
+    "related_members": [
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "PV Systems",
+      "Hosting Capacity",
+      "Distribution Networks",
+      "Stochastic Simulation"
+    ],
+    "source": "ResearchGate / RE&PQJ metadata",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.1109-gtdla61236-2024-10913952",
+    "title": "An Algorithm Based on Consensus for Active Power Sharing and Voltage Regulation Within Electrical Distribution Networks",
+    "year": 2024,
+    "type": "conference-paper",
+    "venue": "2024 IEEE PES Generation, Transmission and Distribution Latin America Conference and Industrial Exposition",
+    "doi": "10.1109/GTDLA61236.2024.10913952",
+    "authors": [
+      "Jairo Giacomini Jr",
+      "Juan Carlos Cebrian",
+      "Helmo K. Morales Paredes"
+    ],
+    "related_members": [
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Consensus Algorithm",
+      "Voltage Regulation",
+      "Distributed Generation",
+      "Distribution Networks"
+    ],
+    "source": "eduCapes / institutional publication list",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.20906-cba2024-4182",
+    "title": "A Genetic Algorithm for Distribution Expansion Planning Considering Financial Losses Due to Voltage Sags and Power Interruptions",
+    "year": 2024,
+    "type": "conference-paper",
+    "venue": "Congresso Brasileiro de Automática - CBA 2024",
+    "doi": "10.20906/CBA2024/4182",
+    "authors": [
+      "Gustavo Lino Morales Espinoza",
+      "Juan Carlos Cebrian"
+    ],
+    "related_members": [
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Genetic Algorithm",
+      "Distribution Expansion Planning",
+      "Voltage Sags",
+      "Power Interruptions",
+      "Financial Losses"
+    ],
+    "source": "SBA / ResearchGate",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.20906-cba2024-4822",
+    "title": "Optimizing Distribution Expansion Planning: Integrating SAIDI and SAIFI Indices with Genetic Algorithms",
+    "year": 2024,
+    "type": "conference-paper",
+    "venue": "Congresso Brasileiro de Automática - CBA 2024",
+    "doi": "10.20906/CBA2024/4822",
+    "authors": [
+      "Gustavo Lino Morales Espinoza",
+      "Juan Carlos Cebrian"
+    ],
+    "related_members": [
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Distribution Expansion Planning",
+      "SAIDI",
+      "SAIFI",
+      "Genetic Algorithm",
+      "Reliability"
+    ],
+    "source": "ResearchGate",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.52152-3915",
+    "title": "Distribution Expansion Planning of Electrical Networks Considering Electrical Losses and Financial Losses Due to Voltage Sags and Interruptions",
+    "year": 2024,
+    "type": "journal-article",
+    "venue": "Renewable Energy and Power Quality Journal",
+    "doi": "10.52152/3915",
+    "authors": [
+      "Gustavo Lino Morales Espinoza",
+      "Juan Carlos Cebrian"
+    ],
+    "related_members": [
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Distribution Expansion Planning",
+      "Electrical Losses",
+      "Financial Losses",
+      "Voltage Sags",
+      "Power Interruptions"
+    ],
+    "source": "ResearchGate / RE&PQJ metadata",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.1109-tpwrd-2024-3358999",
+    "title": "Methodology to Estimate the Financial Impacts of the Integration of PV Generators in Distribution Systems on Voltage Sags and Energy Losses",
+    "year": 2024,
+    "type": "journal-article",
+    "venue": "IEEE Transactions on Power Delivery",
+    "doi": "10.1109/TPWRD.2024.3358999",
+    "authors": [
+      "Juan Carlos Cebrian",
+      "Jairo Giacomini Jr",
+      "André Luis Debiaso Rossi",
+      "Fernanda C. L. Trindade",
+      "Helmo K. Morales Paredes"
+    ],
+    "related_members": [
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "PV Generators",
+      "Voltage Sags",
+      "Energy Losses",
+      "Power Quality",
+      "Distribution Systems"
+    ],
+    "source": "IEEE / ResearchGate / institutional publication list",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.1109-wcnps60622-2023-10344775",
+    "title": "Investigation of Capacitor Influence in the Impact Factor Index Estimation Due to Voltage Sags and Swells in Distribution Networks",
+    "year": 2023,
+    "type": "conference-paper",
+    "venue": "2023 Workshop on Communication Networks and Power Systems (WCNPS)",
+    "doi": "10.1109/WCNPS60622.2023.10344775",
+    "authors": [
+      "David Koller Filiu",
+      "Juan Carlos Cebrian"
+    ],
+    "related_members": [
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Capacitors",
+      "Voltage Sags",
+      "Voltage Swells",
+      "Impact Factor",
+      "Distribution Networks"
+    ],
+    "source": "eduCapes / OasisBR",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.1109-access-2023-3243552",
+    "title": "A Novel Methodology to Estimate Probability Density Function of Voltage Sag Duration and Failure Rates on Power Distribution Systems",
+    "year": 2023,
+    "type": "journal-article",
+    "venue": "IEEE Access",
+    "doi": "10.1109/ACCESS.2023.3243552",
+    "authors": [
+      "Juan Carlos Cebrian",
+      "Jairo Giacomini Jr",
+      "Carlos Alberto Carneiro",
+      "Gabriela B. Silva",
+      "Helmo K. Morales Paredes"
+    ],
+    "related_members": [
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Voltage Sag Duration",
+      "Failure Rates",
+      "Power Distribution Systems",
+      "Power Quality"
+    ],
+    "source": "IEEE Access / UNESP Repository / ORCID",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.24084-reepqj25-559",
+    "title": "A Stochastic Methodology for PV System Allocation in Power Distribution Networks",
+    "year": 2026,
+    "type": "journal-article",
+    "venue": "Renewable Energies Environment and Power Quality Journal",
+    "volume_issue_pages": "25(3):343-348",
+    "doi": "10.24084/reepqj25-559",
+    "url": "https://doi.org/10.24084/reepqj25-559",
+    "authors": [
+      "Gustavo Lino Morales Espinoza",
+      "Ferdinando Crispino",
+      "Leandro Oliveira Martins",
+      "Maurício B. C. Salles",
+      "Carlos F. M. Almeida",
+      "Renato M. Monaro",
+      "Luís F. N. Lourenço",
+      "Luiz H. L. Rosa",
+      "Nelson Kagan",
+      "Juan Carlos Cebrian"
+    ],
+    "related_members": [
+      "gustavo-lino-morales-espinoza",
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "PV Systems",
+      "Distribution Networks",
+      "Hosting Capacity",
+      "Monte Carlo Simulation",
+      "Power Losses"
+    ],
+    "source": "ResearchGate / RE&PQJ",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.24084-reepqj24-110",
+    "title": "Distribution Expansion Planning of Electrical Networks Considering Electrical Losses and Financial Losses Due to Voltage Sags and Interruptions",
+    "year": 2026,
+    "type": "journal-article",
+    "venue": "Renewable Energies Environment and Power Quality Journal",
+    "volume_issue_pages": "24(1):60-65",
+    "doi": "10.24084/reepqj24-110",
+    "url": "https://doi.org/10.24084/reepqj24-110",
+    "authors": [
+      "Gustavo Lino Morales Espinoza",
+      "Juan Carlos Cebrian"
+    ],
+    "related_members": [
+      "gustavo-lino-morales-espinoza",
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Distribution Expansion Planning",
+      "Genetic Algorithm",
+      "Electrical Losses",
+      "Voltage Sags",
+      "Power Interruptions",
+      "Financial Losses"
+    ],
+    "source": "ResearchGate / RE&PQJ",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.1109-induscon66435-2025-11241329",
+    "title": "Adaptive Genetic Algorithm for Distribution Expansion Planning Considering Sensitive Industrial Customers",
+    "year": 2025,
+    "type": "conference-paper",
+    "venue": "2025 16th IEEE International Conference on Industry Applications (INDUSCON)",
+    "doi": "10.1109/INDUSCON66435.2025.11241329",
+    "url": "https://doi.org/10.1109/INDUSCON66435.2025.11241329",
+    "authors": [
+      "Gustavo Lino Morales Espinoza",
+      "Ferdinando Crispino",
+      "Maurício B. C. Salles",
+      "Carlos F. M. Almeida",
+      "Juan Carlos Cebrian"
+    ],
+    "related_members": [
+      "gustavo-lino-morales-espinoza",
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Adaptive Genetic Algorithm",
+      "Distribution Expansion Planning",
+      "Sensitive Industrial Customers",
+      "Power Quality",
+      "Voltage Sags",
+      "Power Interruptions"
+    ],
+    "source": "ResearchGate / IEEE metadata",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.1109-induscon66435-2025-11241860",
+    "title": "Stochastic Assessment of Hosting Capacity with Distributed PV and Battery Storage Using Monte Carlo Simulation",
+    "year": 2025,
+    "type": "conference-paper",
+    "venue": "2025 16th IEEE International Conference on Industry Applications (INDUSCON)",
+    "doi": "10.1109/INDUSCON66435.2025.11241860",
+    "url": "https://doi.org/10.1109/INDUSCON66435.2025.11241860",
+    "authors": [
+      "Gustavo Lino Morales Espinoza",
+      "Ferdinando Crispino",
+      "Maurício B. C. Salles",
+      "Carlos F. M. Almeida",
+      "Luiz H. L. Rosa",
+      "Renato M. Monaro",
+      "Nelson Kagan",
+      "Luís F. N. Lourenço",
+      "Juan Carlos Cebrian"
+    ],
+    "related_members": [
+      "gustavo-lino-morales-espinoza",
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Hosting Capacity",
+      "Photovoltaic Systems",
+      "Battery Energy Storage Systems",
+      "Monte Carlo Simulation",
+      "Distribution Networks",
+      "Voltage Profile"
+    ],
+    "source": "ResearchGate / IEEE metadata",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.52152-4554",
+    "title": "A Stochastic Methodology for PV System Allocation in Power Distribution Networks",
+    "year": 2025,
+    "type": "journal-article",
+    "venue": "Renewable Energy and Power Quality Journal",
+    "volume_issue_pages": "23(4):80-85",
+    "doi": "10.52152/4554",
+    "url": "https://doi.org/10.52152/4554",
+    "authors": [
+      "Gustavo Lino Morales Espinoza",
+      "Nelson Kagan",
+      "Luiz Henrique Leite Rosa",
+      "Luís Felipe Normandia Lourenço",
+      "Renato Machado Monaro",
+      "Carlos Frederico Meschini Almeida",
+      "Maurício B. C. Salles",
+      "Leandro Oliveira Martins",
+      "Ferdinando Crispino",
+      "Juan Carlos Cebrian"
+    ],
+    "related_members": [
+      "gustavo-lino-morales-espinoza",
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "PV Systems",
+      "Hosting Capacity",
+      "Distribution Networks",
+      "Stochastic Simulation",
+      "Power Quality"
+    ],
+    "source": "ResearchGate / RE&PQJ",
+    "doi_verified": true,
+    "last_checked": "2026-05-19",
+    "duplicate_title_group": "stochastic-methodology-pv-allocation"
+  },
+  {
+    "id": "10.20906-cba2024-4182",
+    "title": "A Genetic Algorithm for Distribution Expansion Planning Considering Financial Losses Due to Voltage Sags and Power Interruptions",
+    "year": 2024,
+    "type": "conference-paper",
+    "venue": "Congresso Brasileiro de Automática - CBA 2024",
+    "doi": "10.20906/CBA2024/4182",
+    "url": "https://doi.org/10.20906/CBA2024/4182",
+    "authors": [
+      "Gustavo Lino Morales Espinoza",
+      "Juan Carlos Cebrian"
+    ],
+    "related_members": [
+      "gustavo-lino-morales-espinoza",
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Genetic Algorithm",
+      "Distribution Expansion Planning",
+      "Voltage Sags",
+      "Power Interruptions",
+      "Financial Losses",
+      "Electrical Losses"
+    ],
+    "source": "ResearchGate / SBA CBA 2024",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.20906-cba2024-4822",
+    "title": "Optimizing Distribution Expansion Planning: Integrating SAIDI and SAIFI Indices with Genetic Algorithms",
+    "year": 2024,
+    "type": "conference-paper",
+    "venue": "Congresso Brasileiro de Automática - CBA 2024",
+    "doi": "10.20906/CBA2024/4822",
+    "url": "https://doi.org/10.20906/CBA2024/4822",
+    "authors": [
+      "Gustavo Lino Morales Espinoza",
+      "Juan Carlos Cebrian"
+    ],
+    "related_members": [
+      "gustavo-lino-morales-espinoza",
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Distribution Expansion Planning",
+      "SAIDI",
+      "SAIFI",
+      "Reliability",
+      "Genetic Algorithm",
+      "Distribution Networks"
+    ],
+    "source": "ResearchGate / SBA CBA 2024",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.52152-3915",
+    "title": "Distribution Expansion Planning of Electrical Networks Considering Electrical Losses and Financial Losses Due to Voltage Sags and Interruptions",
+    "year": 2024,
+    "type": "journal-article",
+    "venue": "Renewable Energy and Power Quality Journal",
+    "doi": "10.52152/3915",
+    "url": "https://doi.org/10.52152/3915",
+    "authors": [
+      "Gustavo Lino Morales Espinoza",
+      "Juan Carlos Cebrian"
+    ],
+    "related_members": [
+      "gustavo-lino-morales-espinoza",
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Distribution Expansion Planning",
+      "Electrical Losses",
+      "Financial Losses",
+      "Voltage Sags",
+      "Power Interruptions",
+      "Genetic Algorithm"
+    ],
+    "source": "ResearchGate / RE&PQJ",
+    "doi_verified": true,
+    "last_checked": "2026-05-19",
+    "duplicate_title_group": "dep-electrical-financial-losses"
+  },
+  {
+    "id": "10.29327-27640582-815041",
+    "title": "DVR para Mitigação de Afundamento de Tensão em Aplicações Industriais",
+    "year": 2024,
+    "type": "conference-paper",
+    "venue": "V Congresso Brasileiro Interdisciplinar em Ciência e Tecnologia",
+    "doi": "10.29327/27640582.815041",
+    "url": "https://doi.org/10.29327/27640582.815041",
+    "authors": [
+      "Gustavo Lino Morales Espinoza",
+      "Lucas Samuel De Lima Tiburcio"
+    ],
+    "related_members": [
+      "gustavo-lino-morales-espinoza"
+    ],
+    "keywords": [
+      "Dynamic Voltage Restorer",
+      "Voltage Sag",
+      "Power Quality",
+      "Industrial Applications"
+    ],
+    "source": "ResearchGate",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "title": "Impact of Distributed Energy Resources on Fault Location, Isolation, and Service Restoration",
+    "year": 2022,
+    "type": "conference-paper",
+    "doi": "10.1109/PMAPS53380.2022.9810565",
+    "venue": "2022 17th International Conference on Probabilistic Methods Applied to Power Systems (PMAPS)"
+  },
+  {
+    "title": "Automated Switch Placement in Power Distribution Systems: Analysis of Binary PSO Parameters",
+    "year": 2022,
+    "type": "conference-paper"
+  },
+  {
+    "title": "Análise Comparativa da Aplicação das Metodologias de Proteção Salva Fusível e Queima Fusível no Desempenho das Redes Elétricas de Distribuição",
+    "year": 2020,
+    "type": "conference-paper"
+  },
+  {
+    "id": "10.1016-j-epsr-2025-111773",
+    "title": "A Novel Stochastic Methodology to Estimate the Impact Factor Due to Short-Duration Voltage Variations in Power Distribution Networks",
+    "year": 2025,
+    "type": "journal-article",
+    "venue": "Electric Power Systems Research",
+    "volume_issue_pages": "247:111773",
+    "doi": "10.1016/j.epsr.2025.111773",
+    "url": "https://doi.org/10.1016/j.epsr.2025.111773",
+    "authors": [
+      "David Koller Filiu",
+      "Juan Carlos Cebrian"
+    ],
+    "related_members": [
+      "david-koller-filiu",
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Short-Duration Voltage Variations",
+      "Impact Factor",
+      "Power Quality",
+      "Distribution Networks",
+      "Monte Carlo Simulation",
+      "Voltage Sags",
+      "Voltage Swells"
+    ],
+    "source": "ScienceDirect / ResearchGate",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.1109-wcnps60622-2023-10344775",
+    "title": "Investigation of Capacitor Influence in the Impact Factor Index Estimation Due to Voltage Sags and Swells in Distribution Networks",
+    "year": 2023,
+    "type": "conference-paper",
+    "venue": "2023 Workshop on Communication Networks and Power Systems (WCNPS)",
+    "doi": "10.1109/WCNPS60622.2023.10344775",
+    "url": "https://doi.org/10.1109/WCNPS60622.2023.10344775",
+    "authors": [
+      "David Koller Filiu",
+      "Juan Carlos Cebrian"
+    ],
+    "related_members": [
+      "david-koller-filiu",
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Distribution Networks",
+      "Impact Factor",
+      "Power Quality",
+      "Short-Duration Voltage Variation",
+      "Voltage Sags",
+      "Voltage Swells",
+      "Capacitor Banks"
+    ],
+    "source": "ResearchGate / eduCAPES / OasisBR",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.1109-induscon66435-2025-11241257",
+    "title": "A Comparative Study of Olfati-Saber and Supportive Consensus Algorithms for Voltage Regulation in Distribution Systems",
+    "year": 2025,
+    "type": "conference-paper",
+    "venue": "2025 16th IEEE International Conference on Industry Applications (INDUSCON)",
+    "volume_issue_pages": "pp. 251-257",
+    "doi": "10.1109/INDUSCON66435.2025.11241257",
+    "url": "https://doi.org/10.1109/INDUSCON66435.2025.11241257",
+    "authors": [
+      "Jairo Giacomini Jr",
+      "Paulo Fernando Silva",
+      "Juan Carlos Cebrian",
+      "Helmo Kelis Morales Paredes"
+    ],
+    "related_members": [
+      "jairo-giacomini-jr",
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Consensus Algorithms",
+      "Voltage Regulation",
+      "Distribution Systems",
+      "Distributed Generation",
+      "Smart Grids"
+    ],
+    "source": "ResearchGate / Helmo Morales Paredes publication list",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.1109-gpecom65896-2025-11061898",
+    "title": "Voltage Regulation in Distribution Network Using Consensus-Based Algorithm: Impact of Different Communication Topologies and DG Power Variations",
+    "year": 2025,
+    "type": "conference-paper",
+    "venue": "2025 7th Global Power, Energy and Communication Conference (GPECOM)",
+    "doi": "10.1109/GPECOM65896.2025.11061898",
+    "url": "https://doi.org/10.1109/GPECOM65896.2025.11061898",
+    "authors": [
+      "Jairo Giacomini",
+      "Juan Carlos Cebrian",
+      "Helmo Kelis Morales Paredes"
+    ],
+    "related_members": [
+      "jairo-giacomini-jr",
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Voltage Regulation",
+      "Consensus-Based Algorithm",
+      "Communication Topologies",
+      "Distributed Generation",
+      "Distribution Networks"
+    ],
+    "source": "ORCID-linked metadata / ResearchGate",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.1109-gtdla61236-2024-10913952",
+    "title": "An Algorithm Based on Consensus for Active Power Sharing and Voltage Regulation Within Electrical Distribution Networks",
+    "year": 2024,
+    "type": "conference-paper",
+    "venue": "2024 IEEE PES Generation, Transmission and Distribution Latin America Conference and Industrial Exposition",
+    "doi": "10.1109/GTDLA61236.2024.10913952",
+    "url": "https://doi.org/10.1109/GTDLA61236.2024.10913952",
+    "authors": [
+      "Jairo Giacomini Jr",
+      "Juan Carlos Cebrian",
+      "Helmo Kelis Morales Paredes"
+    ],
+    "related_members": [
+      "jairo-giacomini-jr",
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Consensus Algorithm",
+      "Active Power Sharing",
+      "Voltage Regulation",
+      "Electrical Distribution Networks",
+      "Distributed Generation"
+    ],
+    "source": "ResearchGate / IEEE metadata",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.1109-gtdla61236-2024-10913879",
+    "title": "Resilience Analysis of the Consensus Algorithm in Microgrids with Distributed Controllers Testing for Communication Link Failure",
+    "year": 2024,
+    "type": "conference-paper",
+    "venue": "2024 IEEE PES Generation, Transmission and Distribution Latin America Conference and Industrial Exposition",
+    "doi": "10.1109/GTDLA61236.2024.10913879",
+    "url": "https://doi.org/10.1109/GTDLA61236.2024.10913879",
+    "authors": [
+      "Paulo Fernando Silva",
+      "Jairo Giacomini Jr",
+      "Jakson Bonaldo",
+      "Luis de Oro Arenas",
+      "José de Arimatéia O. Filho",
+      "Helmo Kelis Morales Paredes"
+    ],
+    "related_members": [
+      "jairo-giacomini-jr"
+    ],
+    "keywords": [
+      "Consensus Algorithm",
+      "Microgrids",
+      "Distributed Controllers",
+      "Communication Link Failure",
+      "Power Quality",
+      "Distributed Control"
+    ],
+    "source": "eduCAPES / Helmo Morales Paredes publication list",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.1109-tpwrd-2024-3358999",
+    "title": "Methodology to Estimate the Financial Impacts of the Integration of PV Generators in Distribution Systems on Voltage Sags and Energy Losses",
+    "year": 2024,
+    "type": "journal-article",
+    "venue": "IEEE Transactions on Power Delivery",
+    "doi": "10.1109/TPWRD.2024.3358999",
+    "url": "https://doi.org/10.1109/TPWRD.2024.3358999",
+    "authors": [
+      "Juan Carlos Cebrian",
+      "Jairo Giacomini Jr",
+      "André Luis Debiaso Rossi",
+      "Fernanda C. L. Trindade",
+      "Helmo K. Morales Paredes"
+    ],
+    "related_members": [
+      "jairo-giacomini-jr",
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "PV Generators",
+      "Distribution Systems",
+      "Voltage Sags",
+      "Energy Losses",
+      "Financial Impacts",
+      "Power Quality"
+    ],
+    "source": "ResearchGate / IEEE metadata",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.1109-access-2023-3243552",
+    "title": "A Novel Methodology to Estimate Probability Density Function of Voltage Sag Duration and Failure Rates on Power Distribution Systems",
+    "year": 2023,
+    "type": "journal-article",
+    "venue": "IEEE Access",
+    "volume_issue_pages": "vol. 11, pp. 16863-16874",
+    "doi": "10.1109/ACCESS.2023.3243552",
+    "url": "https://doi.org/10.1109/ACCESS.2023.3243552",
+    "authors": [
+      "Juan Carlos Cebrian",
+      "Jairo Giacomini Jr",
+      "Carlos Alberto Carneiro",
+      "Gabriela Batista Silva",
+      "Helmo K. Morales Paredes"
+    ],
+    "related_members": [
+      "jairo-giacomini-jr",
+      "juan-carlos-cebrian-amasifen",
+      "carlos-alberto-carneiro"
+    ],
+    "keywords": [
+      "Voltage Sag Duration",
+      "Failure Rates",
+      "Power Distribution Systems",
+      "Power Quality",
+      "Power Interruptions",
+      "Reliability"
+    ],
+    "source": "ResearchGate / IEEE Access / UNESP Repository",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.36227-techrxiv-176304993-32470095",
+    "title": "A Dynamic Multi-Criteria Framework for Consumer Prioritization in Adaptive Network Restoration",
+    "year": 2025,
+    "type": "preprint",
+    "venue": "TechRxiv",
+    "doi": "10.36227/techrxiv.176304993.32470095",
+    "url": "https://doi.org/10.36227/techrxiv.176304993.32470095",
+    "authors": [
+      "Gabriela Batista Silva",
+      "Juan Carlos Cebrian",
+      "Helmo K. Morales Paredes",
+      "Hermom Leal Moreira"
+    ],
+    "related_members": [
+      "gabriela-batista-silva",
+      "juan-carlos-cebrian-amasifen"
+    ],
+    "keywords": [
+      "Consumer Prioritization",
+      "Adaptive Network Restoration",
+      "Multi-Criteria Decision Making",
+      "Self-Healing Networks",
+      "Distribution Systems"
+    ],
+    "source": "TechRxiv / ORCID metadata",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+    "id": "10.1109-access-2023-3243552",
+    "title": "A Novel Methodology to Estimate Probability Density Function of Voltage Sag Duration and Failure Rates on Power Distribution Systems",
+    "year": 2023,
+    "type": "journal-article",
+    "venue": "IEEE Access",
+    "volume_issue_pages": "vol. 11, pp. 16863-16874",
+    "doi": "10.1109/ACCESS.2023.3243552",
+    "url": "https://doi.org/10.1109/ACCESS.2023.3243552",
+    "authors": [
+      "Juan Carlos Cebrian",
+      "Jairo Giacomini Jr",
+      "Carlos Alberto Carneiro",
+      "Gabriela Batista Silva",
+      "Helmo K. Morales Paredes"
+    ],
+    "related_members": [
+      "gabriela-batista-silva",
+      "juan-carlos-cebrian-amasifen",
+      "jairo-giacomini-jr",
+      "carlos-alberto-carneiro"
+    ],
+    "keywords": [
+      "Voltage Sag Duration",
+      "Failure Rates",
+      "Power Distribution Systems",
+      "Power Quality",
+      "Power Interruptions",
+      "Reliability"
+    ],
+    "source": "IEEE Access / Semantic Scholar / ResearchGate",
+    "doi_verified": true,
+    "last_checked": "2026-05-19"
+  }
 ]
-
-
