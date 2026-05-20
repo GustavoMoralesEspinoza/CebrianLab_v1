@@ -1,0 +1,77 @@
+{{- $members := site.Data.members -}}
+{{- $active := where $members "active" "!=" false -}}
+{{- $groups := slice
+  (dict "key" "professor" "title" "Principal Investigator" "featured" true)
+  (dict "key" "researcher" "title" "Researchers")
+  (dict "key" "postdoc" "title" "Postdoctoral Researchers")
+  (dict "key" "phd_student" "title" "PhD Students")
+  (dict "key" "msc_student" "title" "MSc Students")
+  (dict "key" "msc_researcher" "title" "MSc Researchers")
+  (dict "key" "undergraduate_student" "title" "Undergraduate Students")
+  (dict "key" "external_collaborator" "title" "Collaborators")
+  (dict "key" "alumni" "title" "Alumni")
+-}}
+
+<div class="cebrian-team-directory">
+  {{- range $groups -}}
+    {{- $group := where $active "category" .key -}}
+    {{- if $group -}}
+      {{- $isFeaturedGroup := .featured | default false -}}
+      <section class="cebrian-team-group{{ if .featured }} cebrian-team-group-featured{{ end }}">
+        <h2>{{ .title }}</h2>
+        <div class="{{ if .featured }}cebrian-pi-team-grid{{ else }}cebrian-member-grid{{ end }}">
+          {{- range sort $group "display_name" "asc" -}}
+            {{- $name := .display_name | default .name -}}
+            {{- $affiliation := .affiliation | default "" -}}
+            {{- $bio := .short_bio | default "" -}}
+            {{- $photo := "" -}}
+            {{- with .photo }}{{ $photo = . }}{{ end -}}
+            {{- with .avatar }}{{ $photo = . }}{{ end -}}
+            {{- with .image }}{{ $photo = . }}{{ end -}}
+            {{- if and (eq .id "juan-carlos-cebrian-amasifen") (not $photo) -}}
+              {{- $photo = "/author/admin/avatar.png" -}}
+            {{- end -}}
+            {{- $parts := split $name " " -}}
+            {{- $initials := "" -}}
+            {{- if ge (len $parts) 2 -}}
+              {{- $initials = printf "%s%s" (substr (index $parts 0) 0 1) (substr (index $parts 1) 0 1) -}}
+            {{- else -}}
+              {{- $initials = substr $name 0 1 -}}
+            {{- end -}}
+
+            <article class="{{ if $isFeaturedGroup }}cebrian-pi-card cebrian-team-pi-card{{ else }}cebrian-member-card{{ end }}">
+              <div class="cebrian-member-photo{{ if not $photo }} cebrian-member-initials{{ end }}">
+                {{- if $photo -}}
+                  <img src="{{ $photo }}" alt="{{ $name }}">
+                {{- else -}}
+                  <span>{{ upper $initials }}</span>
+                {{- end -}}
+              </div>
+              <div class="cebrian-member-body">
+                <p class="cebrian-eyebrow">{{ .role }}</p>
+                <h3>{{ $name }}</h3>
+                {{- with .position }}<p class="cebrian-muted">{{ . }}</p>{{ end -}}
+                {{- with $affiliation }}<p class="cebrian-muted">{{ . }}</p>{{ end -}}
+                {{- with $bio }}<p>{{ . }}</p>{{ end -}}
+                {{- with .research_areas -}}
+                  <div class="cebrian-tags">
+                    {{- range first 5 . -}}<span>{{ . }}</span>{{- end -}}
+                  </div>
+                {{- end -}}
+                <div class="cebrian-link-row cebrian-social-links">
+                  {{- with .email }}<a href="mailto:{{ . }}" aria-label="Email {{ $name }}"><i class="fas fa-envelope"></i><span>Email</span></a>{{ end -}}
+                  {{- with .personal_website }}<a href="{{ . }}" aria-label="Website {{ $name }}"><i class="fas fa-globe"></i><span>Website</span></a>{{ end -}}
+                  {{- with .google_scholar }}<a href="{{ . }}" aria-label="Google Scholar {{ $name }}"><i class="ai ai-google-scholar"></i><span>Scholar</span></a>{{ end -}}
+                  {{- with .orcid }}<a href="{{ . }}" aria-label="ORCID {{ $name }}"><i class="ai ai-orcid"></i><span>ORCID</span></a>{{ end -}}
+                  {{- with .researchgate }}<a href="{{ . }}" aria-label="ResearchGate {{ $name }}"><i class="fab fa-researchgate"></i><span>ResearchGate</span></a>{{ end -}}
+                  {{- with .github }}<a href="{{ . }}" aria-label="GitHub {{ $name }}"><i class="fab fa-github"></i><span>GitHub</span></a>{{ end -}}
+                  {{- with .linkedin }}<a href="{{ . }}" aria-label="LinkedIn {{ $name }}"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a>{{ end -}}
+                </div>
+              </div>
+            </article>
+          {{- end -}}
+        </div>
+      </section>
+    {{- end -}}
+  {{- end -}}
+</div>

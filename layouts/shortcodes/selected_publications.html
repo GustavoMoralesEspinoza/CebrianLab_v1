@@ -1,0 +1,28 @@
+{{- $publications := first 4 (sort site.Data.publications "year" "desc") -}}
+
+<div class="cebrian-publication-list">
+  {{- range $publications -}}
+    {{- $authors := delimit .authors ", " -}}
+    {{- $doi := .doi | default "" -}}
+    {{- $doiURL := "" -}}
+    {{- if $doi -}}
+      {{- if strings.HasPrefix $doi "http" -}}
+        {{- $doiURL = $doi -}}
+      {{- else -}}
+        {{- $doiURL = printf "https://doi.org/%s" $doi -}}
+      {{- end -}}
+    {{- end -}}
+    <article class="cebrian-publication">
+      <div class="cebrian-publication-meta">
+        {{- with .year }}<span>{{ . }}</span>{{ end -}}
+        {{- with .type }}<span>{{ replace . "-" " " | title }}</span>{{ end -}}
+      </div>
+      <h3>{{ .title }}</h3>
+      {{- with $authors }}<p>{{ . }}</p>{{ end -}}
+      {{- with .venue }}<span>{{ . }}</span>{{ end -}}
+      <div class="cebrian-link-row">
+        {{- with $doiURL }}<a href="{{ . }}">DOI</a>{{ end -}}
+      </div>
+    </article>
+  {{- end -}}
+</div>

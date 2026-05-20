@@ -1,0 +1,521 @@
+[
+  {
+    "id": "juan-carlos-cebrian-amasifen",
+    "name": "Juan Carlos Cebrian Amasifen",
+    "display_name": "Juan Carlos Cebrian",
+    "name_variants": [
+      "Juan Carlos Cebrian Amasifen",
+      "Juan Carlos Cebrian",
+      "Juan C. Cebrian",
+      "J. C. Cebrian",
+      "J. C. C. Amasifen"
+    ],
+    "role": "Professor / Principal Investigator",
+    "category": "professor",
+    "position": "Professor Doctor, Department of Electrical Energy and Automation",
+    "affiliation": "University of São Paulo (USP)",
+    "school": "Escola Politécnica",
+    "department": "Department of Electrical Energy and Automation Engineering",
+    "country": "Brazil",
+    "city": "São Paulo",
+    "email": "juan.cebrian@usp.br",
+    "personal_website": "",
+    "lab_page": "https://www.researchgate.net/profile/lab/Cebrian-Lab-Juan-Carlos-Cebrian",
+    "institutional_profile": "https://www.pea.usp.br/departamento/docente/",
+    "google_scholar": "https://scholar.google.com/citations?user=yBcR3NAAAAAJ&hl=es&oi=ao",
+    "orcid": "https://orcid.org/0000-0001-8507-3791",
+    "lattes": "http://lattes.cnpq.br/",
+    "researchgate": "https://www.researchgate.net/profile/Juan-Cebrian-6",
+    "fapesp_profile": "https://bv.fapesp.br/en/pesquisador/48872/juan-carlos-cebrian-amasifen/",
+    "research_areas": [
+      "Power Quality",
+      "Distribution Network Planning",
+      "Smart Grids",
+      "Industry 4.0",
+      "Internet of Things (IoT)",
+      "Optimization Methods",
+      "Distributed Energy Resources (DERs)",
+      "Hosting Capacity",
+      "Voltage Sags",
+      "Power Interruptions"
+    ],
+    "short_bio": "Juan Carlos Cebrian Amasifen is a professor at the University of São Paulo, Escola Politécnica, Department of Electrical Energy and Automation Engineering. His research focuses on power quality, distribution network planning, smart grids, Industry 4.0, Internet of Things, distributed energy resources, and optimization methods applied to modern electric power systems.",
+    "long_bio": "Juan Carlos Cebrian Amasifen received his BSc in Mechanical-Electrical Engineering from the Universidad Nacional de Ingeniería, Peru, his MSc in Electrical Engineering from São Paulo State University, Brazil, and his PhD in Electrical Engineering from the University of São Paulo. He carried out postdoctoral research at USP, UNICAMP, and UFABC, with international research stays at the University of Manchester and Virginia Tech. His research interests include power quality, distribution system planning, smart grids, Industry 4.0, Internet of Things, distributed energy resources, and optimization techniques.",
+    "education": [
+      {
+        "degree": "PhD in Electrical Engineering",
+        "institution": "University of São Paulo (USP)",
+        "country": "Brazil",
+        "year": 2008
+      },
+      {
+        "degree": "MSc in Electrical Engineering",
+        "institution": "São Paulo State University (UNESP)",
+        "country": "Brazil",
+        "year": 2003
+      },
+      {
+        "degree": "BSc in Mechanical-Electrical Engineering",
+        "institution": "Universidad Nacional de Ingeniería (UNI)",
+        "country": "Peru",
+        "year": 2001
+      },
+      {
+        "degree": "Postdoctoral Research",
+        "institution": "USP / UNICAMP / UFABC",
+        "country": "Brazil",
+        "period": "2010–2017"
+      }
+    ],
+    "teaching": [
+      "Regulation and Power Quality",
+      "Energy, Environment and Sustainability",
+      "Power Systems",
+      "Smart Grids"
+    ],
+    "featured": true,
+    "active": true,
+    "last_checked": "2026-05-19"
+  },
+  {
+  "id": "gustavo-lino-morales-espinoza",
+  "name": "Gustavo Lino Morales Espinoza",
+  "display_name": "Gustavo Lino Morales Espinoza",
+  "name_variants": [
+    "Gustavo Lino Morales Espinoza",
+    "Gustavo M. Espinoza",
+    "G. Morales Espinoza",
+    "A. Gustavo Morales Espinoza"
+  ],
+  "role": "PhD Researcher",
+  "category": "phd_student",
+  "position": "PhD Researcher / Researcher",
+  "affiliation": "University of São Paulo (USP)",
+  "school": "Escola Politécnica",
+  "department": "Department of Electrical Energy and Automation Engineering",
+  "research_group": "Cebrian Lab",
+  "country": "Brazil",
+  "city": "São Paulo",
+  "email": "gustavo.morales-espinoza@usp.br",
+  "personal_website": "",
+  "institutional_profile": "",
+  "google_scholar": "https://scholar.google.com/citations?user=VXp6c6EAAAAJ&hl=es&oi=ao",
+  "orcid": "https://orcid.org/0000-0001-8450-8845",
+  "researchgate": "https://www.researchgate.net/profile/Gustavo-Lino-Morales-Espinoza-2/research",
+  "lattes": "",
+  "github": "",
+  "linkedin": "",
+  "research_areas": [
+    "Distribution Network Planning",
+    "Hosting Capacity",
+    "Power Quality",
+    "Smart Grids",
+    "Distributed Energy Resources",
+    "Photovoltaic Systems",
+    "Battery Energy Storage Systems",
+    "Genetic Algorithms",
+    "Optimization Methods",
+    "Monte Carlo Simulation",
+    "Power Systems Simulation"
+  ],
+  "short_bio": "Gustavo Lino Morales Espinoza is a PhD researcher at the University of São Paulo, working on distribution network planning, hosting capacity, power quality, distributed energy resources, photovoltaic systems, battery energy storage, and optimization methods applied to electric power systems.",
+  "long_bio": "Gustavo Lino Morales Espinoza is a researcher associated with the University of São Paulo and Cebrian Lab. His research focuses on distribution expansion planning, hosting capacity assessment, smart grids, power quality, distributed photovoltaic generation, battery energy storage systems, and optimization techniques such as genetic algorithms and Monte Carlo simulation. His recent work includes methodologies for PV allocation, hosting capacity assessment with PV and BESS, and distribution expansion planning considering reliability indices, voltage sags, power interruptions, and sensitive industrial customers.",
+  "education": [
+    {
+      "degree": "PhD in Electrical Engineering",
+      "institution": "University of São Paulo (USP)",
+      "country": "Brazil",
+      "status": "in progress"
+    },
+    {
+      "degree": "MSc in Electrical Engineering",
+      "institution": "São Paulo State University (UNESP)",
+      "country": "Brazil"
+    },
+    {
+      "degree": "BSc in Engineering",
+      "institution": "Universidad Nacional de San Agustín de Arequipa",
+      "country": "Peru",
+      "year": 2019
+    }
+  ],
+  "skills": [
+    "OpenDSS",
+    "Python",
+    "py-dss-interface",
+    "Genetic Algorithms",
+    "Monte Carlo Simulation",
+    "Distribution System Planning",
+    "Hosting Capacity Analysis"
+  ],
+  "featured": false,
+  "active": true,
+  "last_checked": "2026-05-19"
+},
+{
+  "id": "carlos-alberto-carneiro",
+  "name": "Carlos Alberto Carneiro",
+  "display_name": "Carlos A. Carneiro",
+  "name_variants": [
+    "Carlos Alberto Carneiro",
+    "Carlos A. Carneiro",
+    "C. A. Carneiro",
+    "Carneiro, Carlos A.",
+    "Carneiro, Carlos"
+  ],
+  "role": "External Collaborator / PhD Researcher",
+  "category": "external_collaborator",
+  "position": "Professor and PhD Researcher in Electrical Engineering",
+  "affiliation": "São Paulo State University (UNESP)",
+  "secondary_affiliation": "Centro Estadual de Educação Tecnológica Paula Souza",
+  "department": "Department of Electrical Engineering",
+  "research_group": "Cebrian Lab",
+  "country": "Brazil",
+  "city": "São Paulo / Sorocaba",
+  "email": "carlos.carneiro@unesp.br",
+  "personal_website": "",
+  "institutional_profile": "",
+  "google_scholar": "https://scholar.google.com/citations?user=W7Kr6T8AAAAJ&hl=es&oi=ao",
+  "orcid": "https://orcid.org/0000-0003-3240-3579",
+  "researchgate": "https://www.researchgate.net/profile/Carlos-Carneiro-9",
+  "lattes": "",
+  "escavador": "https://www.escavador.com/sobre/12123631/carlos-alberto-carneiro",
+  "research_areas": [
+    "Power Distribution Systems",
+    "Distributed Generation",
+    "Distribution Network Automation",
+    "Automated Switch Allocation",
+    "Power Quality",
+    "Voltage Sags",
+    "Power Interruptions",
+    "Reliability Indicators",
+    "Multiobjective Optimization",
+    "Industrial Automation",
+    "Electrotechnics"
+  ],
+  "short_bio": "Carlos Alberto Carneiro is an external collaborator associated with Cebrian Lab, working on power distribution systems, distributed generation, power quality, automated switch allocation, and optimization applied to distribution networks.",
+  "long_bio": "Carlos Alberto Carneiro holds a Master's degree in Electrical Engineering from São Paulo State University, with research focused on automated switch allocation in power distribution networks using a multiobjective approach. He is currently pursuing doctoral research in Electrical Engineering and works as a professor at Centro Estadual de Educação Tecnológica Paula Souza in industrial automation and electrotechnics. His research interests include power distribution systems, distributed generation, power quality, voltage sags, power interruptions, reliability indicators, and optimization methods applied to distribution networks.",
+  "education": [
+    {
+      "degree": "PhD in Electrical Engineering",
+      "institution": "São Paulo State University (UNESP)",
+      "country": "Brazil",
+      "status": "in progress",
+      "research_topic": "Automated switch allocation considering distributed energy resources in power distribution networks"
+    },
+    {
+      "degree": "MSc in Electrical Engineering",
+      "institution": "São Paulo State University (UNESP)",
+      "country": "Brazil",
+      "year": 2021,
+      "thesis": "Alocação de chaves automatizadas em redes elétricas de distribuição: uma abordagem multiobjetivo"
+    },
+    {
+      "degree": "Specialization in Telecommunications Engineering",
+      "institution": "São Paulo State University (UNESP)",
+      "country": "Brazil",
+      "year": 2002
+    },
+    {
+      "degree": "BSc in Production Engineering",
+      "institution": "Claretiano Centro Universitário",
+      "country": "Brazil",
+      "year": 2017
+    },
+    {
+      "degree": "Degree in Pedagogy",
+      "institution": "Faculdade de Ciências Humanas de Aguaí",
+      "country": "Brazil",
+      "year": 2012
+    },
+    {
+      "degree": "Technology in Electrical Systems - Electronics",
+      "institution": "São Paulo State University (UNESP)",
+      "country": "Brazil",
+      "year": 1991
+    }
+  ],
+  "skills": [
+    "Power Distribution Systems",
+    "Distribution Automation",
+    "Multiobjective Optimization",
+    "Automated Switch Allocation",
+    "Industrial Automation",
+    "Electrotechnics",
+    "Distributed Generation"
+  ],
+  "featured": false,
+  "active": true,
+  "last_checked": "2026-05-19"
+},
+{
+  "id": "rennard-de-oliveira-brito",
+  "name": "Rennard de Oliveira Brito",
+  "display_name": "Rennard de Oliveira Brito",
+  "role": "MSc Student and Researcher",
+  "category": "msc_student",
+  "position": "MSc Researcher",
+  "affiliation": "University of São Paulo (USP)",
+  "school": "Escola Politécnica",
+  "department": "Department of Electrical Energy and Automation Engineering",
+  "research_group": "Cebrian Lab",
+  "professional_affiliation": "Enel Brasil",
+  "professional_area": "Technical Losses Team",
+  "country": "Brazil",
+  "city": "São Paulo",
+  "email": "",
+  "personal_website": "",
+  "institutional_profile": "",
+  "google_scholar": "",
+  "orcid": "",
+  "researchgate": "",
+  "lattes": "",
+  "github": "",
+  "linkedin": "",
+  "research_areas": [
+    "Distribution Expansion Planning",
+    "Distributed Energy Resources",
+    "Evolutionary Algorithms",
+    "NSGA-II",
+    "OpenDSS",
+    "Python Simulation",
+    "Machine Learning",
+    "Artificial Intelligence"
+  ],
+  "short_bio": "Rennard de Oliveira Brito is an MSc researcher at the University of São Paulo, working on distribution network expansion planning using OpenDSS, Python-based frameworks, and evolutionary algorithms.",
+  "long_bio": "Rennard de Oliveira Brito is an MSc researcher at the University of São Paulo (USP), Escola Politécnica. His research focuses on distribution network expansion planning with OpenDSS and Python-based frameworks, applying NSGA-II methods to address energy losses, reverse power flow, and voltage violations in Brazilian distribution systems. He also works at Enel Brasil on the technical losses team, contributing to Python tools for network analysis and optimization.",
+  "education": [
+    {
+      "degree": "MSc in Electrical Engineering",
+      "institution": "University of São Paulo (USP)",
+      "country": "Brazil",
+      "period": "2024–present",
+      "status": "in progress"
+    },
+    {
+      "degree": "BSc in Electrical Engineering",
+      "institution": "União Educacional do Norte (Uninorte)",
+      "country": "Brazil",
+      "year": 2018
+    }
+  ],
+  "skills": [
+    "OpenDSS",
+    "Python",
+    "NSGA-II",
+    "Distribution Network Analysis",
+    "Optimization",
+    "Machine Learning"
+  ],
+  "publications_status": "no_publications_registered",
+  "featured": false,
+  "active": true,
+  "last_checked": "2026-05-19"
+},
+{
+  "id": "david-koller-filiu",
+  "name": "David Koller Filiu",
+  "display_name": "David Koller Filiu",
+  "role": "PhD Researcher",
+  "category": "phd_student",
+  "position": "PhD Researcher",
+  "affiliation": "University of São Paulo (USP)",
+  "school": "Escola Politécnica",
+  "department": "Department of Electrical Energy and Automation Engineering",
+  "research_group": "Cebrian Lab",
+  "country": "Brazil",
+  "city": "São Paulo",
+  "email": "",
+  "personal_website": "",
+  "institutional_profile": "",
+  "google_scholar": "https://scholar.google.com/citations?user=6d4d8hsAAAAJ&hl=es&oi=ao",
+  "orcid": "",
+  "researchgate": "",
+  "lattes": "",
+  "github": "",
+  "linkedin": "",
+  "research_areas": [
+    "Power Quality",
+    "Short-Duration Voltage Variations",
+    "Voltage Sags",
+    "Impact Factor",
+    "Distribution Networks",
+    "Financial Compensation",
+    "Monte Carlo Simulation",
+    "OpenDSS",
+    "Python Simulation"
+  ],
+  "interests": [
+    "R&D for Power Distribution Networks",
+    "Smart Grids",
+    "Power Quality",
+    "Regulatory Environment",
+    "Financial Losses",
+    "OpenDSS & Python Simulation"
+  ],
+  "short_bio": "David Koller Filiu is a PhD researcher at the University of São Paulo, working on power quality, short-duration voltage variations, Impact Factor estimation, and financial compensation analysis in electrical distribution networks.",
+  "long_bio": "David Koller Filiu is a PhD researcher at the University of São Paulo (USP). His research focuses on Power Quality, short-duration voltage variations (VTCD), and the estimation and minimization of financial compensation based on violations in the Impact Factor of VTCDs in electrical distribution networks. He develops Monte Carlo-based methodologies using OpenDSS and Python frameworks to address power quality violations in Brazilian distribution networks.",
+  "education": [
+    {
+      "degree": "PhD in Electrical Engineering",
+      "field": "Power Systems",
+      "institution": "University of São Paulo (USP)",
+      "country": "Brazil",
+      "period": "2025–present",
+      "status": "in progress"
+    },
+    {
+      "degree": "MSc in Electrical Engineering",
+      "field": "AI applied to Power Systems",
+      "institution": "São Paulo State University (UNESP)",
+      "country": "Brazil",
+      "period": "2021–2024"
+    },
+    {
+      "degree": "BSc in Electrical Engineering",
+      "institution": "Paulista University",
+      "country": "Brazil",
+      "year": 2005
+    }
+  ],
+  "skills": [
+    "OpenDSS",
+    "Python",
+    "Monte Carlo Simulation",
+    "Power Quality Analysis",
+    "Voltage Sag Analysis",
+    "Distribution Network Simulation",
+    "Regulatory Analysis"
+  ],
+  "featured": false,
+  "active": true,
+  "last_checked": "2026-05-19"
+},{
+  "id": "jairo-giacomini-jr",
+  "name": "Jairo Giacomini Jr",
+  "display_name": "Jairo Giacomini Jr",
+  "name_variants": [
+    "Jairo Giacomini Jr",
+    "Jairo Giacomini Junior",
+    "Jairo Giacomini",
+    "J. Giacomini",
+    "J. Giacomini Jr"
+  ],
+  "role": "PhD Researcher",
+  "category": "phd_student",
+  "position": "PhD Student",
+  "affiliation": "São Paulo State University (UNESP)",
+  "secondary_affiliation": "Federal Institute of São Paulo (IFSP)",
+  "research_group": "Cebrian Lab",
+  "country": "Brazil",
+  "city": "São Paulo / Sorocaba",
+  "email": "",
+  "personal_website": "",
+  "institutional_profile": "https://integra.ifsp.edu.br/portfolio/pessoas/jairo-giacomini-junior",
+  "google_scholar": "https://scholar.google.com/citations?user=yh4u6L8AAAAJ&hl=es&oi=ao",
+  "orcid": "",
+  "researchgate": "https://www.researchgate.net/profile/Jairo-Giacomini-Jr",
+  "lattes": "",
+  "github": "",
+  "linkedin": "",
+  "research_areas": [
+    "Power Distribution Systems",
+    "Power Quality",
+    "Voltage Regulation",
+    "Voltage Sags",
+    "Distributed Energy Resources",
+    "Photovoltaic Systems",
+    "Energy Storage Systems",
+    "Consensus Algorithms",
+    "Microgrids",
+    "Power Systems Simulation"
+  ],
+  "short_bio": "Jairo Giacomini Jr is a PhD researcher associated with Cebrian Lab, working on power distribution systems, power quality, distributed energy resources, voltage regulation, and consensus-based control methods.",
+  "long_bio": "Jairo Giacomini Jr is a PhD researcher associated with Cebrian Lab. His research focuses on power distribution systems, power quality, voltage sags, photovoltaic integration, distributed energy resources, energy storage systems, and consensus-based algorithms for voltage regulation and active power sharing in distribution networks and microgrids.",
+  "education": [
+    {
+      "degree": "MSc in Engineering",
+      "institution": "São Paulo State University (UNESP)",
+      "country": "Brazil"
+    }
+  ],
+  "skills": [
+    "Power Systems Simulation",
+    "Power Quality Analysis",
+    "Voltage Regulation",
+    "Consensus Algorithms",
+    "Distributed Energy Resources",
+    "Photovoltaic Integration",
+    "Microgrid Control"
+  ],
+  "featured": false,
+  "active": true,
+  "last_checked": "2026-05-19"
+},
+{
+  "id": "gabriela-batista-silva",
+  "name": "Gabriela Batista Silva",
+  "display_name": "Gabriela Batista Silva",
+  "name_variants": [
+    "Gabriela Batista Silva",
+    "Gabriela B. Silva",
+    "G. B. Silva",
+    "Gabriela Silva"
+  ],
+  "role": "MSc Researcher",
+  "category": "msc_researcher",
+  "position": "MSc Researcher",
+  "affiliation": "São Paulo State University (UNESP)",
+  "school": "Institute of Science and Technology",
+  "department": "Câmpus de Sorocaba",
+  "research_group": "Cebrian Lab",
+  "country": "Brazil",
+  "city": "Sorocaba / São Paulo",
+  "email": "",
+  "personal_website": "",
+  "institutional_profile": "",
+  "google_scholar": "",
+  "orcid": "",
+  "researchgate": "https://www.researchgate.net/profile/Gabriela_Silva109",
+  "lattes": "",
+  "github": "",
+  "linkedin": "",
+  "research_areas": [
+    "Power Distribution Systems",
+    "Power System Reliability",
+    "Power Quality",
+    "Self-Healing Distribution Networks",
+    "Consumer Prioritization",
+    "Multi-Criteria Decision Making",
+    "Artificial Intelligence",
+    "Process Improvement"
+  ],
+  "short_bio": "Gabriela Batista Silva is a researcher associated with Cebrian Lab, working on power distribution systems, power system reliability, self-healing networks, consumer prioritization, and artificial intelligence applied to electrical power systems.",
+  "long_bio": "Gabriela Batista Silva is an electrical engineer and researcher associated with Cebrian Lab. Her research focuses on the use of artificial intelligence and multi-criteria decision-making methods to improve the reliability of power distribution systems, especially in self-healing network restoration and consumer prioritization during outage events.",
+  "education": [
+    {
+      "degree": "MSc in Electrical Engineering",
+      "institution": "São Paulo State University (UNESP)",
+      "country": "Brazil",
+      "year": 2024
+    },
+    {
+      "degree": "BSc in Electrical Engineering",
+      "institution": "Federal University of Goiás (UFG)",
+      "country": "Brazil",
+      "year": 2018
+    }
+  ],
+  "skills": [
+    "Power Systems Analysis",
+    "Power Quality",
+    "Power System Reliability",
+    "Artificial Intelligence",
+    "Multi-Criteria Decision Making",
+    "Process Improvement"
+  ],
+  "featured": false,
+  "active": true,
+  "last_checked": "2026-05-19"
+}
+]

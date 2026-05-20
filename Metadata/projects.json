@@ -1,0 +1,283 @@
+{
+  "research_focus": [
+    "Power distribution systems",
+    "Distribution expansion planning",
+    "Hosting capacity assessment",
+    "Distributed Energy Resources: PV, BESS and electric vehicles",
+    "Grid flexibility and demand response",
+    "Power quality and short-duration voltage variations",
+    "Reliability, resilience and self-healing networks",
+    "Extreme events and DER-supported restoration",
+    "Financial losses and sensitive industrial customers",
+    "Automated switching and network reconfiguration",
+    "Optimization, AI and evolutionary algorithms",
+    "OpenDSS, Python and simulation tools",
+    "Smart grids, IoT and interoperability",
+    "Energy transition and sustainable distribution systems"
+  ],
+  "projects": [
+    {
+      "id": "extreme-events-der-restoration",
+      "name": "Extreme Events and DER-Based Partial Restoration",
+      "slug": "extreme-events-der-restoration",
+      "status": "initial",
+      "development_stage": "initial phase",
+      "main_researchers": [
+        "Yasmin"
+      ],
+      "supervision": [
+        "juan-carlos-cebrian-amasifen"
+      ],
+      "collaborators": [],
+      "research_topics": [
+        "Extreme events",
+        "Distribution network resilience",
+        "Distributed Energy Resources",
+        "Partial restoration",
+        "Grid flexibility",
+        "OpenDSS simulation"
+      ],
+      "description": "This project investigates how extreme weather or high-impact events affect local distribution networks and how distributed energy resources can support partial service restoration. The methodology combines historical event analysis, affected-area modeling, and distribution-system simulations to reproduce stress conditions in the grid. The objective is to evaluate how DERs installed in strategic locations can recover part of the affected load, improve resilience, and support planning decisions for more robust distribution networks.",
+      "publication_ids": [],
+      "publication_note": "No publications registered yet. This is an early-stage project."
+    },
+    {
+      "id": "reliability-automated-switches-self-healing",
+      "name": "Network Reliability, Automated Switching and Self-Healing Restoration",
+      "slug": "reliability-automated-switches-self-healing",
+      "status": "advanced",
+      "development_stage": "advanced phase",
+      "main_researchers": [
+        "carlos-alberto-carneiro",
+        "gabriela-batista-silva"
+      ],
+      "supervision": [
+        "juan-carlos-cebrian-amasifen"
+      ],
+      "collaborators": [
+        "jairo-giacomini-jr"
+      ],
+      "research_topics": [
+        "Power distribution reliability",
+        "Automated switches",
+        "Fault simulation",
+        "Monte Carlo simulation",
+        "Self-healing networks",
+        "Consumer prioritization",
+        "Reliability indices"
+      ],
+      "description": "This research line focuses on improving the reliability and resilience of distribution networks through automated and manual switching devices, fault simulation, and adaptive restoration strategies. Monte Carlo simulations are used to generate fault scenarios and estimate reliability impacts on feeders and consumers. The project also studies how the network can be divided into blocks or superblocks, isolated after faults, and partially restored through alternative paths or DER support. A complementary branch investigates consumer prioritization and decision-making criteria for adaptive self-healing restoration.",
+      "publication_ids": [
+        "10.1109/ACCESS.2023.3243552",
+        "10.36227/techrxiv.176304993.32470095",
+        "10.1109/PMAPS53380.2022.9810565"
+      ],
+      "publication_note": "Includes recent works on voltage sag/failure-rate estimation and adaptive network restoration; one older 2022 DER-FLISR paper can be shown as related background."
+    },
+    {
+      "id": "non-technical-losses-ai",
+      "name": "AI-Based Non-Technical Loss Detection in Distribution Networks",
+      "slug": "non-technical-losses-ai",
+      "status": "initial",
+      "development_stage": "initial phase",
+      "main_researchers": [
+        "david-koller-filiu"
+      ],
+      "supervision": [
+        "juan-carlos-cebrian-amasifen"
+      ],
+      "collaborators": [
+        "rennard-de-oliveira-brito"
+      ],
+      "research_topics": [
+        "Non-technical losses",
+        "Energy balance",
+        "Machine learning",
+        "Anomaly detection",
+        "False positive reduction",
+        "Distribution network validation",
+        "DER-integrated scenarios"
+      ],
+      "description": "This project aims to detect and characterize non-technical losses in distribution networks by comparing network energy flows, technical losses, and consumer measurements. The proposed direction combines electrical-network validation, simulated scenarios, and machine-learning models to identify suspicious areas while reducing false positives and false negatives. Future developments may include DER integration, synthetic theft scenarios, and data-driven tools for technical-loss teams and utilities.",
+      "publication_ids": [],
+      "publication_note": "No publications registered yet. Although David has recent publications, those are mainly linked to power quality and Impact Factor/VTCD analysis, not non-technical losses."
+    },
+    {
+      "id": "hosting-capacity-der-integration",
+      "name": "Hosting Capacity Assessment and DER Integration",
+      "slug": "hosting-capacity-der-integration",
+      "status": "intermediate",
+      "development_stage": "intermediate phase",
+      "main_researchers": [
+        "gustavo-lino-morales-espinoza"
+      ],
+      "supervision": [
+        "juan-carlos-cebrian-amasifen"
+      ],
+      "collaborators": [
+        "jairo-giacomini-jr",
+        "rennard-de-oliveira-brito"
+      ],
+      "research_topics": [
+        "Hosting capacity",
+        "Photovoltaic systems",
+        "Battery energy storage systems",
+        "Electric vehicles",
+        "Monte Carlo simulation",
+        "Reverse power flow",
+        "Voltage violations",
+        "Energy losses",
+        "DER control"
+      ],
+      "description": "This project estimates and increases the hosting capacity of distribution networks under high penetration of DERs such as PV systems, BESS and electric vehicles. The first layer uses stochastic allocation and Monte Carlo simulations to quantify technical limits related to voltage violations, reverse power flow, transformer loading and energy losses. The second layer evaluates mitigation and improvement strategies, including optimized battery operation, EV charging scenarios, OLTC and regulator control, inverter-based Volt/Var functions, and coordinated control actions to increase DER integration without degrading system performance.",
+      "publication_ids": [
+        "10.24084/reepqj25-559",
+        "10.52152/4554",
+        "10.1109/INDUSCON66435.2025.11241860",
+        "10.1109/TPWRD.2024.3358999"
+      ],
+      "publication_note": "Core publications include PV allocation, PV+BESS hosting capacity assessment, and financial impact analysis of PV integration."
+    },
+    {
+      "id": "distribution-expansion-planning-sensitive-loads",
+      "name": "Distribution Expansion Planning for Modern and Sensitive Loads",
+      "slug": "distribution-expansion-planning-sensitive-loads",
+      "status": "intermediate",
+      "development_stage": "intermediate phase",
+      "main_researchers": [
+        "gustavo-lino-morales-espinoza",
+        "rennard-de-oliveira-brito"
+      ],
+      "supervision": [
+        "juan-carlos-cebrian-amasifen"
+      ],
+      "collaborators": [
+        "carlos-alberto-carneiro",
+        "david-koller-filiu"
+      ],
+      "research_topics": [
+        "Distribution expansion planning",
+        "Multistage planning",
+        "Genetic algorithms",
+        "NSGA-II",
+        "Reliability indices",
+        "SAIDI",
+        "SAIFI",
+        "Sensitive industrial customers",
+        "Data centers",
+        "Investment cost minimization"
+      ],
+      "description": "This research line develops optimization-based methods for distribution expansion planning under demand growth, DER integration, reliability constraints and sensitive loads. The objective is to identify optimal reinforcement and topology decisions that supply projected demand while minimizing investment costs, electrical losses and reliability or power-quality penalties. Recent developments include genetic algorithms with reliability indicators, financial losses caused by voltage sags and interruptions, and adaptive formulations for sensitive industrial customers. New work extends this planning framework toward NSGA-II and Python/OpenDSS tools for modern Brazilian distribution systems.",
+      "publication_ids": [
+        "10.20906/CBA2024/4182",
+        "10.20906/CBA2024/4822",
+        "10.52152/3915",
+        "10.24084/reepqj24-110",
+        "10.1109/INDUSCON66435.2025.11241329"
+      ],
+      "publication_note": "This project already has publications on GA-based distribution expansion planning, reliability indices and sensitive industrial customers."
+    },
+    {
+      "id": "der-control-voltage-regulation-consensus",
+      "name": "Specialized DER Control for Voltage Regulation and Grid Flexibility",
+      "slug": "der-control-voltage-regulation-consensus",
+      "status": "intermediate",
+      "development_stage": "intermediate phase",
+      "main_researchers": [
+        "jairo-giacomini-jr"
+      ],
+      "supervision": [
+        "juan-carlos-cebrian-amasifen"
+      ],
+      "collaborators": [
+        "gustavo-lino-morales-espinoza",
+        "rennard-de-oliveira-brito"
+      ],
+      "research_topics": [
+        "DER control",
+        "Voltage regulation",
+        "Consensus algorithms",
+        "Volt/Var control",
+        "Curtailment",
+        "Distributed generation",
+        "Communication topologies",
+        "Microgrids"
+      ],
+      "description": "This project studies specialized control strategies for DERs to improve voltage profiles, active power sharing and operational flexibility in distribution networks. It evaluates local and coordinated inverter controls, Volt/Var curves, curtailment strategies, communication topologies and consensus-based algorithms. The goal is to design fast and scalable control methods that can be tested in realistic distribution-network simulations and integrated with planning or hosting-capacity studies.",
+      "publication_ids": [
+        "10.1109/GTDLA61236.2024.10913952",
+        "10.1109/GTDLA61236.2024.10913879",
+        "10.1109/GPECOM65896.2025.11061898",
+        "10.1109/INDUSCON66435.2025.11241257"
+      ],
+      "publication_note": "The publications are mainly centered on consensus algorithms, voltage regulation, communication topologies and distributed controllers."
+    },
+    {
+      "id": "power-quality-financial-impact-vtcd",
+      "name": "Power Quality, VTCD Impact Factor and Financial Losses",
+      "slug": "power-quality-financial-impact-vtcd",
+      "status": "advanced",
+      "development_stage": "advanced phase",
+      "main_researchers": [
+        "juan-carlos-cebrian-amasifen",
+        "david-koller-filiu"
+      ],
+      "supervision": [
+        "juan-carlos-cebrian-amasifen"
+      ],
+      "collaborators": [
+        "gustavo-lino-morales-espinoza",
+        "jairo-giacomini-jr",
+        "carlos-alberto-carneiro"
+      ],
+      "research_topics": [
+        "Power quality",
+        "Voltage sags",
+        "Voltage swells",
+        "Short-duration voltage variations",
+        "Impact Factor",
+        "Financial losses",
+        "Sensitive customers",
+        "Monte Carlo simulation",
+        "Failure rates"
+      ],
+      "description": "This project develops stochastic methodologies to estimate the technical and economic impact of power-quality events in distribution networks, especially voltage sags, voltage swells and short-duration voltage variations. The methods use fault simulations, Monte Carlo analysis and customer sensitivity information to estimate Impact Factor, failure rates, interruption indices and financial losses. The project supports planning studies for utilities and sensitive industrial consumers, where poor power quality can lead to production stoppages and significant economic losses.",
+      "publication_ids": [
+        "10.1016/j.epsr.2025.111773",
+        "10.1109/WCNPS60622.2023.10344775",
+        "10.1109/ACCESS.2023.3243552",
+        "10.1109/TPWRD.2024.3358999",
+        "10.20906/CBA2024/4182",
+        "10.52152/3915"
+      ],
+      "publication_note": "This is one of the most mature research lines, connecting power quality, reliability, financial losses and distribution planning."
+    },
+    {
+      "id": "smart-grids-interoperability-iot",
+      "name": "Smart Grids, IoT and Interoperability for Digital Distribution Systems",
+      "slug": "smart-grids-interoperability-iot",
+      "status": "intermediate",
+      "development_stage": "intermediate phase",
+      "main_researchers": [
+        "juan-carlos-cebrian-amasifen"
+      ],
+      "supervision": [
+        "juan-carlos-cebrian-amasifen"
+      ],
+      "collaborators": [],
+      "research_topics": [
+        "Smart grids",
+        "Internet of Things",
+        "IEC 61850",
+        "Interoperability",
+        "Industry 4.0",
+        "Digital distribution systems"
+      ],
+      "description": "This research line studies the digitalization of power distribution systems through smart-grid architectures, Internet of Things technologies and interoperability standards such as IEC 61850. It provides the technological foundation for integrating measurement, communication, control and automation layers into modern distribution networks, supporting applications in DER control, power quality monitoring, demand response and Industry 4.0 environments.",
+      "publication_ids": [
+        "10.1109/ACCESS.2026.3680294"
+      ],
+      "publication_note": "This line is supported by a recent IEEE Access publication on smart-grid interoperability, IoT and IEC 61850."
+    }
+  ]
+}
