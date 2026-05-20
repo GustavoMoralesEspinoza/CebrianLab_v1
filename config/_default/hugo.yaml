@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: CebrianLab Research Group # Website name
-baseURL: 'https://gustavomoralesespinoza.github.io/CebrianLab/' # Website URL
+baseURL: 'https://example.com/' # Website URL
 
 ############################
 ## LANGUAGE

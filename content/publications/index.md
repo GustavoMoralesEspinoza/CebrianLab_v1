@@ -10,7 +10,18 @@ sections:
       text: |
         Selected publications, conference papers, technical reports, and research outputs from CebrianLab.
 
-        {{< publications_list >}}
+        This page will be connected to `Metadata/publications.json` in a future implementation phase.
     design:
+      columns: '1'
+
+  - block: collection
+    content:
+      title: Current Publication Entries
+      count: 10
+      filters:
+        folders:
+          - publication
+    design:
+      view: citation
       columns: '1'
 ---

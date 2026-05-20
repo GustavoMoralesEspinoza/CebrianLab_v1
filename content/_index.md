@@ -129,7 +129,12 @@ sections:
       text: |
         CebrianLab brings together faculty, researchers, graduate students, undergraduate students, alumni, and collaborators working on power systems, smart grids, optimization, and renewable energy integration.
 
-        {{< team_summary >}}
+        <div class="cebrian-stat-grid">
+          <div class="cebrian-stat"><strong>1</strong><span>Faculty</span></div>
+          <div class="cebrian-stat"><strong>3</strong><span>PhD Students</span></div>
+          <div class="cebrian-stat"><strong>2</strong><span>MSc Researchers</span></div>
+          <div class="cebrian-stat"><strong>1</strong><span>Collaborator</span></div>
+        </div>
 
         <div class="cebrian-centered-action">
           <a class="btn btn-primary" href="/team/">Meet the full team</a>
@@ -180,7 +185,26 @@ sections:
       title: Selected Publications
       subtitle: Recent and selected research outputs from CebrianLab.
       text: |
-        {{< selected_publications >}}
+        <div class="cebrian-publication-list">
+          <article class="cebrian-publication">
+            <h3>A Stochastic Methodology for PV System Allocation in Power Distribution Networks</h3>
+            <p>Gustavo Lino Morales Espinoza, Ferdinando Crispino, Leandro Oliveira Martins, Juan Carlos Cebrian</p>
+            <span>2026 - Renewable Energies Environment and Power Quality Journal - journal-article</span>
+            <a href="https://doi.org/10.24084/reepqj25-559">DOI</a>
+          </article>
+          <article class="cebrian-publication">
+            <h3>Distribution Expansion Planning of Electrical Networks Considering Electrical Losses and Financial Losses Due to Voltage Sags and Interruptions</h3>
+            <p>Gustavo Lino Morales Espinoza, Juan Carlos Cebrian</p>
+            <span>2026 - Renewable Energies Environment and Power Quality Journal - journal-article</span>
+            <a href="https://doi.org/10.24084/reepqj24-110">DOI</a>
+          </article>
+          <article class="cebrian-publication">
+            <h3>Technical Aspects for Smart Grids Interoperability: Internet of Things and IEC 61850 as Key Enablers</h3>
+            <p>Bruno Oliveira Zarpellon, Juan Sebastian Gomez, Paulo Fernando Silva, Juan Carlos Cebrian Amasifen, Luis de Oro Arenas, Helmo K. Morales Paredes</p>
+            <span>2026 - IEEE Access - journal-article</span>
+            <a href="https://doi.org/10.1109/ACCESS.2026.3680294">DOI</a>
+          </article>
+        </div>
 
         <div class="cebrian-centered-action">
           <a class="btn btn-primary" href="/publications/">View all publications</a>
