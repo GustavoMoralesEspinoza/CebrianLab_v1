@@ -1,6 +1,7 @@
 ---
 # Display name
 title: Juan Cebrian Amasifen
+draft: true
 
 # Full name (for SEO)
 first_name: Juan 
@@ -72,8 +73,7 @@ social:
 email: 'juan.cebrian@usp.br'
 
 # Organizational groups (for People widget)
-user_groups:
-  - Undergraduate Students
+user_groups: []
 ---
 
 **Juan Carlos Cebrian Amasifen** is a **Professor at the University of São Paulo (USP)**, Escola Politécnica, Department of Energy and Electrical Automation.  

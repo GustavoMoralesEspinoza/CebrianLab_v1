@@ -1,0 +1,120 @@
+{
+  "hero": {
+    "home": {
+      "image": "images/hero/hero-smart-distribution-grid.png",
+      "webp": "images/webp/hero-smart-distribution-grid.webp",
+      "alt": "Smart distribution grid with DER integration and power system control"
+    },
+    "research": {
+      "image": "images/hero/hero-flexible-grids.png",
+      "webp": "images/webp/hero-flexible-grids.webp",
+      "alt": "Flexible distribution grids with optimization and distributed energy resources"
+    }
+  },
+  "backgrounds": {
+    "impact": {
+      "image": "images/backgrounds/bg-renewable-green.png",
+      "webp": "images/webp/bg-renewable-green.webp",
+      "alt": "Renewable energy and sustainable distribution systems"
+    },
+    "publications": {
+      "image": "images/backgrounds/bg-circuit-blue.png",
+      "webp": "images/webp/bg-circuit-blue.webp",
+      "alt": "Circuit board and digital power system research"
+    },
+    "optimization": {
+      "image": "images/backgrounds/bg-optimization-purple.png",
+      "webp": "images/webp/bg-optimization-purple.webp",
+      "alt": "Optimization and artificial intelligence for power systems"
+    }
+  },
+  "focus_icons": {
+    "power-distribution-systems": {
+      "image": "images/focus-icons/power-distribution-systems.png",
+      "webp": "images/webp/power-distribution-systems.webp",
+      "alt": "Power distribution systems research icon"
+    },
+    "distribution-network-planning": {
+      "image": "images/focus-icons/distribution-network-planning.png",
+      "webp": "images/webp/distribution-network-planning.webp",
+      "alt": "Distribution network planning research icon"
+    },
+    "hosting-capacity-der": {
+      "image": "images/focus-icons/hosting-capacity-der.png",
+      "webp": "images/webp/hosting-capacity-der.webp",
+      "alt": "Hosting capacity and DER integration research icon"
+    },
+    "grid-flexibility-demand-response": {
+      "image": "images/focus-icons/grid-flexibility-demand-response.png",
+      "webp": "images/webp/grid-flexibility-demand-response.webp",
+      "alt": "Grid flexibility and demand response research icon"
+    },
+    "power-quality-reliability-vtcd": {
+      "image": "images/focus-icons/power-quality-reliability-vtcd.png",
+      "webp": "images/webp/power-quality-reliability-vtcd.webp",
+      "alt": "Power quality reliability and VTCDs research icon"
+    },
+    "financial-losses-sensitive-customers": {
+      "image": "images/focus-icons/financial-losses-sensitive-customers.png",
+      "webp": "images/webp/financial-losses-sensitive-customers.webp",
+      "alt": "Financial losses and sensitive customers research icon"
+    },
+    "resilience-self-healing-extreme-events": {
+      "image": "images/focus-icons/resilience-self-healing-extreme-events.png",
+      "webp": "images/webp/resilience-self-healing-extreme-events.webp",
+      "alt": "Network resilience self-healing and extreme events research icon"
+    },
+    "optimization-ai-evolutionary": {
+      "image": "images/focus-icons/optimization-ai-evolutionary.png",
+      "webp": "images/webp/optimization-ai-evolutionary.webp",
+      "alt": "Optimization artificial intelligence and evolutionary algorithms research icon"
+    },
+    "smart-grids-iot-opendss-python": {
+      "image": "images/focus-icons/smart-grids-iot-opendss-python.png",
+      "webp": "images/webp/smart-grids-iot-opendss-python.webp",
+      "alt": "Smart grids IoT interoperability OpenDSS and Python tools research icon"
+    }
+  },
+  "projects": {
+    "hosting-capacity-der-integration": {
+      "image": "images/projects/hosting-capacity-der-integration.png",
+      "webp": "images/webp/hosting-capacity-der-integration.webp",
+      "alt": "Hosting capacity assessment with photovoltaic systems, battery storage and electric vehicles"
+    },
+    "distribution-expansion-planning": {
+      "image": "images/projects/distribution-expansion-planning.png",
+      "webp": "images/webp/distribution-expansion-planning.webp",
+      "alt": "Distribution expansion planning with network reinforcement and optimization"
+    },
+    "power-quality-vtcd-financial-losses": {
+      "image": "images/projects/power-quality-vtcd-financial-losses.png",
+      "webp": "images/webp/power-quality-vtcd-financial-losses.webp",
+      "alt": "Power quality analysis with voltage sags, VTCDs and financial impact assessment"
+    },
+    "der-control-voltage-regulation": {
+      "image": "images/projects/der-control-voltage-regulation.png",
+      "webp": "images/webp/der-control-voltage-regulation.webp",
+      "alt": "DER control for voltage regulation and grid flexibility"
+    },
+    "reliability-self-healing-restoration": {
+      "image": "images/projects/reliability-self-healing-restoration.png",
+      "webp": "images/webp/reliability-self-healing-restoration.webp",
+      "alt": "Self-healing distribution network with automated switching and restoration"
+    },
+    "extreme-events-der-restoration": {
+      "image": "images/projects/extreme-events-der-restoration.png",
+      "webp": "images/webp/extreme-events-der-restoration.webp",
+      "alt": "Extreme events and DER-based partial restoration in distribution networks"
+    },
+    "non-technical-losses-ai": {
+      "image": "images/projects/non-technical-losses-ai.png",
+      "webp": "images/webp/non-technical-losses-ai.webp",
+      "alt": "Artificial intelligence for non-technical loss detection in distribution systems"
+    },
+    "smart-grids-iot-interoperability": {
+      "image": "images/projects/smart-grids-iot-interoperability.png",
+      "webp": "images/webp/smart-grids-iot-interoperability.webp",
+      "alt": "Smart grids, IoT and interoperability for digital distribution systems"
+    }
+  }
+}

@@ -54,13 +54,7 @@ education:
       year: 2018
 
 # Social/Academic Networking (opcional)
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:juan.cebrian@usp.br'
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.com/citations?user=yBcR3NAAAAAJ
+social: []
     
 # Gravatar (opcional)
 # email: "<email@domain>"

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "juan-carlos-cebrian-amasifen",
+    "name": "Juan Carlos Cebrian",
+    "file_jpg": "juan-carlos-cebrian-amasifen.jpg",
+    "file_webp": "juan-carlos-cebrian-amasifen.webp",
+    "recommended_path_jpg": "/images/team/juan-carlos-cebrian-amasifen.jpg",
+    "recommended_path_webp": "/images/team/juan-carlos-cebrian-amasifen.webp",
+    "source": "ResearchGate",
+    "source_profile": "https://www.researchgate.net/profile/Juan-Cebrian-6",
+    "status": "candidate_needs_approval",
+    "note": "Public profile image downloaded and resized to 512x512 for website preview. Confirm permission with member before publishing."
+  },
+  {
+    "id": "carlos-alberto-carneiro",
+    "name": "Carlos Alberto Carneiro",
+    "file_jpg": "carlos-alberto-carneiro.jpg",
+    "file_webp": "carlos-alberto-carneiro.webp",
+    "recommended_path_jpg": "/images/team/carlos-alberto-carneiro.jpg",
+    "recommended_path_webp": "/images/team/carlos-alberto-carneiro.webp",
+    "source": "ResearchGate",
+    "source_profile": "https://www.researchgate.net/profile/Carlos-Carneiro-9",
+    "status": "candidate_needs_approval",
+    "note": "Public profile image downloaded and resized to 512x512 for website preview. Confirm permission with member before publishing."
+  },
+  {
+    "id": "jairo-giacomini-jr",
+    "name": "Jairo Giacomini Jr",
+    "file_jpg": "jairo-giacomini-jr.jpg",
+    "file_webp": "jairo-giacomini-jr.webp",
+    "recommended_path_jpg": "/images/team/jairo-giacomini-jr.jpg",
+    "recommended_path_webp": "/images/team/jairo-giacomini-jr.webp",
+    "source": "ResearchGate",
+    "source_profile": "https://www.researchgate.net/profile/Jairo-Giacomini-Jr",
+    "status": "candidate_needs_approval",
+    "note": "Public profile image downloaded and resized to 512x512 for website preview. Confirm permission with member before publishing."
+  },
+  {
+    "id": "gabriela-batista-silva",
+    "name": "Gabriela Batista Silva",
+    "file_jpg": "gabriela-batista-silva.jpg",
+    "file_webp": "gabriela-batista-silva.webp",
+    "recommended_path_jpg": "/images/team/gabriela-batista-silva.jpg",
+    "recommended_path_webp": "/images/team/gabriela-batista-silva.webp",
+    "source": "ResearchGate",
+    "source_profile": "https://www.researchgate.net/profile/Gabriela_Silva109",
+    "status": "candidate_needs_approval",
+    "note": "Public profile image downloaded and resized to 512x512 for website preview. Confirm permission with member before publishing."
+  },
+  {
+    "id": "gustavo-lino-morales-espinoza",
+    "name": "Gustavo Lino Morales Espinoza",
+    "file_jpg": null,
+    "file_webp": null,
+    "recommended_path_jpg": "/images/team/gustavo-lino-morales-espinoza.jpg",
+    "recommended_path_webp": "/images/team/gustavo-lino-morales-espinoza.webp",
+    "source": "personal_upload_required",
+    "source_profile": "",
+    "status": "missing",
+    "note": "No reliable public portrait was downloaded. Request a personal photo."
+  },
+  {
+    "id": "rennard-de-oliveira-brito",
+    "name": "Rennard de Oliveira Brito",
+    "file_jpg": null,
+    "file_webp": null,
+    "recommended_path_jpg": "/images/team/rennard-de-oliveira-brito.jpg",
+    "recommended_path_webp": "/images/team/rennard-de-oliveira-brito.webp",
+    "source": "personal_upload_required",
+    "source_profile": "",
+    "status": "missing",
+    "note": "No reliable public portrait was downloaded. Request a personal photo."
+  },
+  {
+    "id": "david-koller-filiu",
+    "name": "David Koller Filiu",
+    "file_jpg": null,
+    "file_webp": null,
+    "recommended_path_jpg": "/images/team/david-koller-filiu.jpg",
+    "recommended_path_webp": "/images/team/david-koller-filiu.webp",
+    "source": "personal_upload_required",
+    "source_profile": "",
+    "status": "missing",
+    "note": "No reliable public portrait was downloaded. Request a personal photo."
+  }
+]

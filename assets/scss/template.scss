@@ -31,6 +31,45 @@
   justify-content: center;
 }
 
+.cebrian-home-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(320px, 1.05fr);
+  gap: 2.5rem;
+  align-items: center;
+  padding: 1.5rem 0 0.5rem;
+}
+
+.cebrian-home-hero-content h1 {
+  margin: 0 0 1rem;
+  color: #0b2538;
+  font-size: clamp(2.75rem, 7vw, 5.25rem);
+  line-height: 0.95;
+}
+
+.cebrian-home-hero-content p:not(.cebrian-eyebrow):not(.cebrian-hero-tagline) {
+  max-width: 760px;
+  color: #425c6e;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.cebrian-home-hero-media {
+  position: relative;
+}
+
+.cebrian-home-hero-media picture,
+.cebrian-home-hero-media img {
+  display: block;
+  width: 100%;
+}
+
+.cebrian-home-hero-media img {
+  aspect-ratio: 16 / 10;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 24px 60px rgba(11, 37, 56, 0.18);
+}
+
 .cebrian-card-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -50,6 +89,12 @@
   border-radius: 8px;
   background: #fff;
   box-shadow: 0 12px 30px rgba(18, 48, 71, 0.06);
+}
+
+.cebrian-focus-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
 }
 
 .cebrian-card h3 {
@@ -242,12 +287,222 @@
   font-weight: 700;
 }
 
+.cebrian-project-cover,
+.cebrian-research-card-image img,
+.cebrian-team-avatar img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.cebrian-project-cover {
+  aspect-ratio: 3 / 2;
+  border-radius: 8px;
+}
+
+.cebrian-research-card,
+.cebrian-team-card {
+  overflow: hidden;
+  border: 1px solid rgba(18, 48, 71, 0.12);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(18, 48, 71, 0.06);
+}
+
+.cebrian-research-card-image {
+  aspect-ratio: 3 / 2;
+  background: #eef5f7;
+}
+
+.cebrian-research-card-image img {
+  height: 100%;
+}
+
+.cebrian-research-card-body {
+  padding: 1rem 1.1rem 1.2rem;
+}
+
+.cebrian-research-card-body h3 {
+  margin: 0.65rem 0 0.45rem;
+  color: #102a3d;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.cebrian-research-card-body p {
+  color: #4d6373;
+}
+
+.cebrian-status-badge {
+  display: inline-flex;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  background: #e5f1ee;
+  color: #0d665c;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.cebrian-focus-icon {
+  display: inline-flex;
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: 8px;
+  background: #eef5f7;
+  object-fit: cover;
+}
+
+.cebrian-team-avatar {
+  width: 8rem;
+  max-width: 100%;
+  aspect-ratio: 1;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #eef5f7;
+}
+
+.cebrian-team-avatar img {
+  height: 100%;
+}
+
+.cebrian-bg-section {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cebrian-team-preview {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.cebrian-team-card {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.cebrian-team-card .cebrian-team-avatar {
+  width: 5.5rem;
+}
+
+.cebrian-team-card h3 {
+  margin: 0 0 0.25rem;
+  color: #102a3d;
+  font-size: 1rem;
+}
+
+.cebrian-team-card p {
+  margin: 0;
+  color: #5f7180;
+  font-size: 0.9rem;
+}
+
+.cebrian-impact-preview,
+.cebrian-join-panel,
+.cebrian-contact-strip {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.cebrian-impact-copy {
+  max-width: 860px;
+  margin: 0 auto 1.5rem;
+  text-align: center;
+}
+
+.cebrian-impact-copy p,
+.cebrian-join-panel > p,
+.cebrian-contact-strip p {
+  color: #425c6e;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.cebrian-impact-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.cebrian-contact-strip {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid rgba(18, 48, 71, 0.12);
+  border-radius: 8px;
+  background: #f6fbff;
+}
+
+.cebrian-contact-strip p {
+  margin: 0;
+}
+
+.cebrian-research-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.cebrian-research-hero-copy p,
+.cebrian-section-intro {
+  color: #425c6e;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.cebrian-research-hero-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 18px 46px rgba(11, 37, 56, 0.14);
+}
+
+.cebrian-focus-grid {
+  align-items: stretch;
+}
+
+.cebrian-project-tags {
+  margin-bottom: 0.9rem;
+}
+
+.cebrian-research-cta {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cebrian-research-cta h2 {
+  margin-bottom: 1.25rem;
+  color: #102a3d;
+  font-size: 1.7rem;
+}
+
 @media (max-width: 991px) {
+  .cebrian-home-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .cebrian-research-hero {
+    grid-template-columns: 1fr;
+  }
+
   .cebrian-card-grid,
   .cebrian-project-grid,
   .cebrian-join-grid,
   .cebrian-stat-grid,
-  .cebrian-partner-grid {
+  .cebrian-partner-grid,
+  .cebrian-team-preview,
+  .cebrian-impact-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -261,6 +516,10 @@
 }
 
 @media (max-width: 640px) {
+  .cebrian-home-hero {
+    gap: 1.4rem;
+  }
+
   .cebrian-hero-tagline {
     font-size: 1.15rem;
   }
@@ -269,7 +528,9 @@
   .cebrian-project-grid,
   .cebrian-join-grid,
   .cebrian-stat-grid,
-  .cebrian-partner-grid {
+  .cebrian-partner-grid,
+  .cebrian-team-preview,
+  .cebrian-impact-grid {
     grid-template-columns: 1fr;
   }
 
@@ -284,5 +545,12 @@
   .cebrian-statement,
   .cebrian-pi-card {
     padding: 1rem;
+  }
+
+  .cebrian-team-card,
+  .cebrian-contact-strip {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }

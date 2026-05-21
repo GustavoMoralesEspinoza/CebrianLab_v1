@@ -1,0 +1,25 @@
+{
+  "created_for": "CebrianLab website",
+  "recommended_repo_path": "static/images/",
+  "image_style": "dark navy smart-grid vector/technology style",
+  "assets_count": 66,
+  "folders": {
+    "hero": "Homepage and research hero images",
+    "projects": "Research project cover images",
+    "focus_icons": "Square icons for the 9 research focus areas",
+    "backgrounds": "Abstract section backgrounds",
+    "webp": "Optimized WebP versions",
+    "prompts": "AI image prompt catalog"
+  },
+  "recommended_focus_areas": [
+    "Power Distribution Systems",
+    "Distribution Network Planning",
+    "Hosting Capacity and DER Integration",
+    "Grid Flexibility and Demand Response",
+    "Power Quality, Reliability and VTCDs",
+    "Financial Losses and Sensitive Customers",
+    "Network Resilience, Self-Healing and Extreme Events",
+    "Optimization, Artificial Intelligence and Evolutionary Algorithms",
+    "Smart Grids, IoT, Interoperability and OpenDSS/Python Tools"
+  ]
+}

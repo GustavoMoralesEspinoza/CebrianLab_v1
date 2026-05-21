@@ -75,6 +75,9 @@
     ],
     "featured": true,
     "active": true,
+    "image": "images/team/juan-carlos-cebrian-amasifen.png",
+    "image_alt": "Portrait of Juan Carlos Cebrian Amasifen",
+    "image_status": "candidate_needs_approval",
     "last_checked": "2026-05-19"
   },
   {
@@ -150,6 +153,9 @@
   ],
   "featured": false,
   "active": true,
+  "image": "images/team/gustavo-lino-morales-espinoza.jpg",
+  "image_alt": "Portrait of Gustavo Lino Morales Espinoza",
+  "image_status": "existing_author_asset",
   "last_checked": "2026-05-19"
 },
 {
@@ -246,6 +252,9 @@
   ],
   "featured": false,
   "active": true,
+  "image": "images/team/carlos-alberto-carneiro.jpg",
+  "image_alt": "Portrait of Carlos Alberto Carneiro",
+  "image_status": "candidate_needs_approval",
   "last_checked": "2026-05-19"
 },
 {
@@ -310,6 +319,9 @@
   "publications_status": "no_publications_registered",
   "featured": false,
   "active": true,
+  "image": "images/team/rennard-de-oliveira-brito.jpg",
+  "image_alt": "Portrait of Rennard de Oliveira Brito",
+  "image_status": "existing_author_asset",
   "last_checked": "2026-05-19"
 },
 {
@@ -389,6 +401,9 @@
   ],
   "featured": false,
   "active": true,
+  "image": "images/team/jairo-giacomini-jr.jpg",
+  "image_alt": "Portrait of Jairo Giacomini Jr",
+  "image_status": "candidate_needs_approval",
   "last_checked": "2026-05-19"
 },{
   "id": "jairo-giacomini-jr",
@@ -450,6 +465,9 @@
   ],
   "featured": false,
   "active": true,
+  "image": "images/team/gabriela-batista-silva.jpg",
+  "image_alt": "Portrait of Gabriela Batista Silva",
+  "image_status": "candidate_needs_approval",
   "last_checked": "2026-05-19"
 },
 {

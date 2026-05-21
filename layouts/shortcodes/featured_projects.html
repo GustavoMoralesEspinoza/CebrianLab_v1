@@ -1,0 +1,40 @@
+{{- $wanted := slice
+  "hosting-capacity-der-integration"
+  "distribution-expansion-planning-sensitive-loads"
+  "power-quality-financial-impact-vtcd"
+  "reliability-automated-switches-self-healing"
+-}}
+
+<div class="cebrian-card-grid cebrian-project-grid cebrian-research-grid">
+  {{- range $wanted -}}
+    {{- $id := . -}}
+    {{- $matches := where site.Data.projects.projects "id" $id -}}
+    {{- with index $matches 0 -}}
+      {{- $title := .name | default .id -}}
+      {{- $slug := .slug | default .id -}}
+      {{- $topics := .research_topics | default (slice) -}}
+      {{- $alt := .image_alt | default $title -}}
+      <article class="cebrian-research-card">
+        {{- if or .image .webp -}}
+          <div class="cebrian-research-card-image">
+            <picture>
+              {{- with .webp }}<source srcset="{{ . | relURL }}" type="image/webp">{{- end -}}
+              {{- with .image }}<img class="cebrian-project-cover" src="{{ . | relURL }}" alt="{{ $alt }}">{{- end -}}
+            </picture>
+          </div>
+        {{- end -}}
+        <div class="cebrian-research-card-body">
+          {{- with .status }}<div class="cebrian-status-badge">{{ . }}</div>{{- end -}}
+          <h3>{{ $title }}</h3>
+          {{- with .description }}<p>{{ . | plainify | truncate 220 }}</p>{{- end -}}
+          {{- if $topics -}}
+            <div class="cebrian-tags cebrian-project-tags">
+              {{- range first 3 $topics -}}<span>{{ . }}</span>{{- end -}}
+            </div>
+          {{- end -}}
+          <a class="cebrian-card-link" href="{{ printf "projects/%s/" $slug | relURL }}">Learn more</a>
+        </div>
+      </article>
+    {{- end -}}
+  {{- end -}}
+</div>

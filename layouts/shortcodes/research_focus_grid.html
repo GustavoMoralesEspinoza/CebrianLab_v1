@@ -1,0 +1,32 @@
+{{- $assets := site.Data.visual_assets.focus_icons -}}
+{{- $iconMap := dict
+  "Power distribution systems" "power-distribution-systems"
+  "Distribution expansion planning" "distribution-network-planning"
+  "Hosting capacity assessment" "hosting-capacity-der"
+  "Distributed Energy Resources: PV, BESS and electric vehicles" "hosting-capacity-der"
+  "Grid flexibility and demand response" "grid-flexibility-demand-response"
+  "Power quality and short-duration voltage variations" "power-quality-reliability-vtcd"
+  "Reliability, resilience and self-healing networks" "resilience-self-healing-extreme-events"
+  "Extreme events and DER-supported restoration" "resilience-self-healing-extreme-events"
+  "Financial losses and sensitive industrial customers" "financial-losses-sensitive-customers"
+  "Automated switching and network reconfiguration" "resilience-self-healing-extreme-events"
+  "Optimization, AI and evolutionary algorithms" "optimization-ai-evolutionary"
+  "OpenDSS, Python and simulation tools" "smart-grids-iot-opendss-python"
+  "Smart grids, IoT and interoperability" "smart-grids-iot-opendss-python"
+  "Energy transition and sustainable distribution systems" "power-distribution-systems"
+-}}
+
+<div class="cebrian-card-grid cebrian-focus-grid">
+  {{- range site.Data.projects.research_focus -}}
+    {{- $title := . -}}
+    {{- $key := index $iconMap $title | default "power-distribution-systems" -}}
+    {{- $asset := index $assets $key -}}
+    <article class="cebrian-card cebrian-focus-card">
+      {{- with $asset -}}
+        {{- with .image -}}<img class="cebrian-focus-icon" src="{{ . | relURL }}" alt="{{ $asset.alt | default (printf "%s research icon" $title) }}">{{- end -}}
+      {{- end -}}
+      <h3>{{ $title }}</h3>
+      <p>{{ printf "Research focus in %s for modern power distribution systems." $title }}</p>
+    </article>
+  {{- end -}}
+</div>

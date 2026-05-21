@@ -1,0 +1,58 @@
+{
+  "style_direction": {
+    "recommended_style": "Modern academic technology, clean vector/3D hybrid, dark navy background, cyan and green accents, realistic but not photorealistic, no text, no logos, no people unless explicitly approved.",
+    "negative_prompt": "no distorted text, no fake logos, no extra fingers, no cluttered interface, no generic stock-photo smiling people, no unsafe electrical scenes"
+  },
+  "ai_image_prompts": [
+    {
+      "id": "hero-smart-distribution-grid",
+      "section": "Home hero",
+      "prompt": "A modern smart power distribution grid in a Brazilian urban environment, medium-voltage feeders represented as glowing blue network lines, rooftop solar panels, battery energy storage, electric vehicle charging, and a control center dashboard in the background, dark navy and cyan academic style, clean futuristic illustration, no text, no logos, 16:9."
+    },
+    {
+      "id": "research-overview-network",
+      "section": "Research intro",
+      "prompt": "Abstract visualization of an electrical distribution feeder with nodes, switches, transformers, distributed energy resources, and data streams, clean vector style, dark background, cyan green and amber accents, suitable for a university laboratory website, no text, 16:9."
+    },
+    {
+      "id": "hosting-capacity-der",
+      "section": "Hosting Capacity project card",
+      "prompt": "A technical illustration showing photovoltaic systems, battery storage, and electric vehicles connected to a distribution network, with glowing capacity limits and voltage profiles represented as smooth curves, modern clean academic design, no text, 3:2."
+    },
+    {
+      "id": "distribution-expansion-planning",
+      "section": "Distribution Planning project card",
+      "prompt": "An engineering planning map of a power distribution network with candidate lines, substations, transformers, investment paths, and optimization routes highlighted, clean futuristic blue-grid interface, no text, 3:2."
+    },
+    {
+      "id": "power-quality-vtcd",
+      "section": "Power Quality project card",
+      "prompt": "A power quality monitoring scene showing voltage sag and swell waveforms over an abstract distribution feeder, warning markers at sensitive industrial customers, dark navy technical illustration, orange and cyan highlights, no text, 3:2."
+    },
+    {
+      "id": "der-control-consensus",
+      "section": "DER Control project card",
+      "prompt": "Distributed energy resources coordinated through consensus control, multiple inverter nodes exchanging data and regulating voltage in a power distribution network, clean digital twin aesthetic, cyan and green, no text, 3:2."
+    },
+    {
+      "id": "self-healing-resilience",
+      "section": "Reliability and self-healing project card",
+      "prompt": "A self-healing distribution network after a fault, automated switches isolate a damaged section while alternative feeders restore priority loads, abstract resilient grid visualization, purple and cyan highlights, no text, 3:2."
+    },
+    {
+      "id": "extreme-events-restoration",
+      "section": "Extreme Events project card",
+      "prompt": "A distribution grid affected by an extreme weather event, with microgrids, solar panels and battery storage restoring critical loads in an affected urban area, cinematic but clean technical illustration, no disaster victims, no text, 3:2."
+    },
+    {
+      "id": "non-technical-losses-ai",
+      "section": "Non-technical losses project card",
+      "prompt": "Artificial intelligence detecting anomalies in smart meter data over a power distribution network, suspicious energy imbalance points highlighted, clean data science and electrical grid visualization, no text, 3:2."
+    },
+    {
+      "id": "smart-grids-iot-interoperability",
+      "section": "Smart Grids and IoT project card",
+      "prompt": "Smart grid interoperability concept with IoT sensors, IEC 61850-style communication nodes, control signals, and distribution automation devices connected over a power network, clean academic technology illustration, no text, 3:2."
+    }
+  ]
+}
