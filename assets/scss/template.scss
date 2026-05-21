@@ -268,6 +268,150 @@
   font-size: 0.9rem;
 }
 
+.cebrian-publications-page,
+.cebrian-selected-publications {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.cebrian-publications-section {
+  margin-top: 2.25rem;
+}
+
+.cebrian-publications-section > h2,
+.cebrian-publication-year {
+  margin: 0 0 1rem;
+  color: #102a3d;
+  font-size: 1.55rem;
+}
+
+.cebrian-publication-year {
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid rgba(18, 48, 71, 0.12);
+}
+
+.cebrian-publication-year-list {
+  margin-top: 0;
+}
+
+.cebrian-publication-card {
+  padding: 1.15rem 1.25rem;
+  border: 1px solid rgba(18, 48, 71, 0.12);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 10px 24px rgba(18, 48, 71, 0.06);
+}
+
+.cebrian-publication-title {
+  margin: 0.65rem 0 0.45rem;
+  color: #102a3d;
+  font-size: 1.08rem;
+  line-height: 1.4;
+}
+
+.cebrian-publication-meta,
+.cebrian-publication-links,
+.cebrian-publication-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.cebrian-publication-meta {
+  align-items: center;
+  color: #667887;
+  font-size: 0.86rem;
+}
+
+.cebrian-publication-authors,
+.cebrian-publication-venue,
+.cebrian-publication-related {
+  margin: 0.35rem 0 0;
+  color: #4d6373;
+  line-height: 1.55;
+}
+
+.cebrian-publication-authors {
+  font-weight: 600;
+}
+
+.cebrian-publication-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  background: #e5f1ee;
+  color: #0d665c;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.cebrian-publication-tags {
+  margin-top: 0.9rem;
+}
+
+.cebrian-publication-tags span {
+  display: inline-flex;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  background: #edf5f7;
+  color: #28505f;
+  font-size: 0.8rem;
+}
+
+.cebrian-publication-links {
+  align-items: center;
+  margin-top: 0.9rem;
+}
+
+.cebrian-publication-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2rem;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid rgba(0, 109, 119, 0.22);
+  border-radius: 999px;
+  color: #006d77;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cebrian-publication-links a:hover {
+  background: #eef8f8;
+  text-decoration: none;
+}
+
+.cebrian-publication-links span {
+  color: #6d7e8b;
+  font-size: 0.82rem;
+}
+
+.cebrian-selected-publications {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.cebrian-selected-publication {
+  height: 100%;
+}
+
+.cebrian-publications-cta {
+  max-width: 920px;
+  margin: 3rem auto 0;
+  padding: 1.5rem;
+  border: 1px solid rgba(18, 48, 71, 0.12);
+  border-radius: 8px;
+  background: #f6fbff;
+  text-align: center;
+}
+
+.cebrian-publications-cta h2 {
+  margin-bottom: 0.75rem;
+  color: #102a3d;
+  font-size: 1.45rem;
+}
+
 .cebrian-partner-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -487,6 +631,159 @@
   font-size: 1.7rem;
 }
 
+.cebrian-team-page {
+  display: grid;
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.cebrian-team-section h2 {
+  margin-bottom: 1rem;
+  color: #102a3d;
+  font-size: 1.55rem;
+}
+
+.cebrian-pi-grid,
+.cebrian-team-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.cebrian-pi-grid {
+  grid-template-columns: 1fr;
+}
+
+.cebrian-team-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.cebrian-pi-profile,
+.cebrian-team-page .cebrian-team-card {
+  height: 100%;
+  border: 1px solid rgba(18, 48, 71, 0.12);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 14px 34px rgba(18, 48, 71, 0.07);
+}
+
+.cebrian-pi-profile {
+  display: grid;
+  grid-template-columns: minmax(180px, 240px) 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  padding: 1.5rem;
+}
+
+.cebrian-team-page .cebrian-team-card {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  gap: 1rem;
+  align-items: start;
+  padding: 1.1rem;
+}
+
+.cebrian-pi-profile .cebrian-team-avatar {
+  width: 100%;
+}
+
+.cebrian-team-page .cebrian-team-avatar {
+  width: 6.5rem;
+  border-radius: 999px;
+}
+
+.cebrian-avatar-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e7f2f4;
+  color: #0f5360;
+  font-size: 1.45rem;
+  font-weight: 800;
+}
+
+.cebrian-pi-profile .cebrian-avatar-fallback {
+  font-size: 2.4rem;
+}
+
+.cebrian-member-content h3 {
+  margin: 0 0 0.35rem;
+  color: #102a3d;
+  font-size: 1.15rem;
+  line-height: 1.3;
+}
+
+.cebrian-pi-profile .cebrian-member-content h3 {
+  font-size: 1.65rem;
+}
+
+.cebrian-member-bio {
+  margin-top: 0.9rem;
+  color: #425c6e;
+  line-height: 1.65;
+}
+
+.cebrian-member-tags,
+.cebrian-member-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 1rem;
+}
+
+.cebrian-member-tags span {
+  display: inline-flex;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  background: #edf5f7;
+  color: #28505f;
+  font-size: 0.8rem;
+}
+
+.cebrian-member-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2rem;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid rgba(0, 109, 119, 0.22);
+  border-radius: 999px;
+  color: #006d77;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cebrian-member-links a:hover {
+  background: #eef8f8;
+  text-decoration: none;
+}
+
+.cebrian-team-cta {
+  max-width: 900px;
+  margin: 3rem auto 0;
+  padding: 1.5rem;
+  border: 1px solid rgba(18, 48, 71, 0.12);
+  border-radius: 8px;
+  background: #f6fbff;
+  text-align: center;
+}
+
+.cebrian-team-cta h2 {
+  margin-bottom: 0.75rem;
+  color: #102a3d;
+  font-size: 1.5rem;
+}
+
+.cebrian-team-cta p {
+  margin: 0 auto;
+  max-width: 760px;
+  color: #425c6e;
+  line-height: 1.7;
+}
+
+.cebrian-team-summary .cebrian-centered-action {
+  margin-top: 1.25rem;
+}
+
 @media (max-width: 991px) {
   .cebrian-home-hero {
     grid-template-columns: 1fr;
@@ -502,7 +799,8 @@
   .cebrian-stat-grid,
   .cebrian-partner-grid,
   .cebrian-team-preview,
-  .cebrian-impact-grid {
+  .cebrian-impact-grid,
+  .cebrian-selected-publications {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -510,8 +808,17 @@
     grid-template-columns: 1fr;
   }
 
+  .cebrian-pi-profile,
+  .cebrian-team-grid {
+    grid-template-columns: 1fr;
+  }
+
   .cebrian-pi-photo {
     max-width: 260px;
+  }
+
+  .cebrian-pi-profile .cebrian-team-avatar {
+    width: 12rem;
   }
 }
 
@@ -530,7 +837,8 @@
   .cebrian-stat-grid,
   .cebrian-partner-grid,
   .cebrian-team-preview,
-  .cebrian-impact-grid {
+  .cebrian-impact-grid,
+  .cebrian-selected-publications {
     grid-template-columns: 1fr;
   }
 
@@ -552,5 +860,17 @@
     grid-template-columns: 1fr;
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .cebrian-team-page .cebrian-team-card {
+    grid-template-columns: 1fr;
+  }
+
+  .cebrian-team-page .cebrian-team-avatar {
+    width: 7rem;
+  }
+
+  .cebrian-pi-profile {
+    padding: 1rem;
   }
 }

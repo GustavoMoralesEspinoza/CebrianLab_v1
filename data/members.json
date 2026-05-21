@@ -401,9 +401,6 @@
   ],
   "featured": false,
   "active": true,
-  "image": "images/team/jairo-giacomini-jr.jpg",
-  "image_alt": "Portrait of Jairo Giacomini Jr",
-  "image_status": "candidate_needs_approval",
   "last_checked": "2026-05-19"
 },{
   "id": "jairo-giacomini-jr",
@@ -465,8 +462,8 @@
   ],
   "featured": false,
   "active": true,
-  "image": "images/team/gabriela-batista-silva.jpg",
-  "image_alt": "Portrait of Gabriela Batista Silva",
+  "image": "images/team/jairo-giacomini-jr.jpg",
+  "image_alt": "Portrait of Jairo Giacomini Jr",
   "image_status": "candidate_needs_approval",
   "last_checked": "2026-05-19"
 },
@@ -534,6 +531,9 @@
   ],
   "featured": false,
   "active": true,
+  "image": "images/team/gabriela-batista-silva.jpg",
+  "image_alt": "Portrait of Gabriela Batista Silva",
+  "image_status": "candidate_needs_approval",
   "last_checked": "2026-05-19"
 }
 ]

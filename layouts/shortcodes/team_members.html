@@ -1,74 +1,97 @@
-{{- $members := site.Data.members -}}
+{{- $members := site.Data.members | default slice -}}
 {{- $active := where $members "active" "!=" false -}}
+{{- $principal := where $active "category" "professor" -}}
 {{- $groups := slice
-  (dict "key" "professor" "title" "Principal Investigator" "featured" true)
   (dict "key" "researcher" "title" "Researchers")
   (dict "key" "postdoc" "title" "Postdoctoral Researchers")
   (dict "key" "phd_student" "title" "PhD Students")
   (dict "key" "msc_student" "title" "MSc Students")
   (dict "key" "msc_researcher" "title" "MSc Researchers")
   (dict "key" "undergraduate_student" "title" "Undergraduate Students")
-  (dict "key" "external_collaborator" "title" "Collaborators")
+  (dict "key" "external_collaborator" "title" "External Collaborators")
+  (dict "key" "collaborator" "title" "Collaborators")
   (dict "key" "alumni" "title" "Alumni")
 -}}
 
-<div class="cebrian-team-directory">
+{{- define "team-card" -}}
+  {{- $member := .member -}}
+  {{- $featured := .featured | default false -}}
+  {{- $name := $member.display_name | default $member.name -}}
+  {{- $photo := $member.image | default "" -}}
+  {{- $alt := $member.image_alt | default (printf "Portrait of %s" $name) -}}
+  {{- $parts := split $name " " -}}
+  {{- $initials := "" -}}
+  {{- if ge (len $parts) 2 -}}
+    {{- $initials = printf "%s%s" (substr (index $parts 0) 0 1) (substr (index $parts 1) 0 1) -}}
+  {{- else if $name -}}
+    {{- $initials = substr $name 0 1 -}}
+  {{- end -}}
+  {{- $links := slice -}}
+  {{- with $member.email }}{{ $links = $links | append (dict "label" "Email" "href" (printf "mailto:%s" .)) }}{{ end -}}
+  {{- with $member.google_scholar }}{{ $links = $links | append (dict "label" "Scholar" "href" .) }}{{ end -}}
+  {{- with $member.orcid }}{{ $links = $links | append (dict "label" "ORCID" "href" .) }}{{ end -}}
+  {{- with $member.researchgate }}{{ $links = $links | append (dict "label" "ResearchGate" "href" .) }}{{ end -}}
+  {{- with $member.lattes }}{{ $links = $links | append (dict "label" "Lattes" "href" .) }}{{ end -}}
+  {{- with $member.institutional_profile }}{{ $links = $links | append (dict "label" "Institutional" "href" .) }}{{ end -}}
+  {{- with $member.personal_website }}{{ $links = $links | append (dict "label" "Website" "href" .) }}{{ end -}}
+  {{- with $member.escavador }}{{ $links = $links | append (dict "label" "Escavador" "href" .) }}{{ end -}}
+  {{- with $member.fapesp_profile }}{{ $links = $links | append (dict "label" "FAPESP" "href" .) }}{{ end -}}
+
+  <article class="{{ if $featured }}cebrian-pi-profile{{ else }}cebrian-team-card{{ end }}">
+    <div class="cebrian-team-avatar{{ if not $photo }} cebrian-avatar-fallback{{ end }}">
+      {{- if $photo -}}
+        <img src="{{ $photo | relURL }}" alt="{{ $alt }}">
+      {{- else -}}
+        <span>{{ upper $initials }}</span>
+      {{- end -}}
+    </div>
+
+    <div class="cebrian-member-content">
+      {{- with $member.role }}<p class="cebrian-eyebrow">{{ . }}</p>{{ end -}}
+      <h3>{{ $name }}</h3>
+      {{- with $member.position }}<p class="cebrian-muted">{{ . }}</p>{{ end -}}
+      {{- with $member.affiliation }}<p class="cebrian-muted">{{ . }}</p>{{ end -}}
+      {{- with $member.department }}<p class="cebrian-muted">{{ . }}</p>{{ end -}}
+      {{- with $member.school }}<p class="cebrian-muted">{{ . }}</p>{{ end -}}
+      {{- with $member.short_bio }}<p class="cebrian-member-bio">{{ . }}</p>{{ end -}}
+
+      {{- with $member.research_areas -}}
+        <div class="cebrian-member-tags" aria-label="Research areas">
+          {{- range first 6 . -}}<span>{{ . }}</span>{{- end -}}
+        </div>
+      {{- end -}}
+
+      {{- if gt (len $links) 0 -}}
+        <div class="cebrian-member-links">
+          {{- range $links -}}
+            <a href="{{ .href }}"{{ if hasPrefix .href "http" }} target="_blank" rel="noopener"{{ end }}>{{ .label }}</a>
+          {{- end -}}
+        </div>
+      {{- end -}}
+    </div>
+  </article>
+{{- end -}}
+
+<div class="cebrian-team-page">
+  {{- if $principal -}}
+    <section class="cebrian-team-section cebrian-team-section-pi">
+      <h2>Principal Investigator / Faculty</h2>
+      <div class="cebrian-pi-grid">
+        {{- range sort $principal "display_name" "asc" -}}
+          {{- template "team-card" (dict "member" . "featured" true) -}}
+        {{- end -}}
+      </div>
+    </section>
+  {{- end -}}
+
   {{- range $groups -}}
     {{- $group := where $active "category" .key -}}
-    {{- if $group -}}
-      {{- $isFeaturedGroup := .featured | default false -}}
-      <section class="cebrian-team-group{{ if .featured }} cebrian-team-group-featured{{ end }}">
+    {{- if gt (len $group) 0 -}}
+      <section class="cebrian-team-section">
         <h2>{{ .title }}</h2>
-        <div class="{{ if .featured }}cebrian-pi-team-grid{{ else }}cebrian-member-grid{{ end }}">
+        <div class="cebrian-team-grid">
           {{- range sort $group "display_name" "asc" -}}
-            {{- $name := .display_name | default .name -}}
-            {{- $affiliation := .affiliation | default "" -}}
-            {{- $bio := .short_bio | default "" -}}
-            {{- $photo := "" -}}
-            {{- with .photo }}{{ $photo = . }}{{ end -}}
-            {{- with .avatar }}{{ $photo = . }}{{ end -}}
-            {{- with .image }}{{ $photo = . }}{{ end -}}
-            {{- if and (eq .id "juan-carlos-cebrian-amasifen") (not $photo) -}}
-              {{- $photo = "/author/admin/avatar.png" -}}
-            {{- end -}}
-            {{- $parts := split $name " " -}}
-            {{- $initials := "" -}}
-            {{- if ge (len $parts) 2 -}}
-              {{- $initials = printf "%s%s" (substr (index $parts 0) 0 1) (substr (index $parts 1) 0 1) -}}
-            {{- else -}}
-              {{- $initials = substr $name 0 1 -}}
-            {{- end -}}
-
-            <article class="{{ if $isFeaturedGroup }}cebrian-pi-card cebrian-team-pi-card{{ else }}cebrian-member-card{{ end }}">
-              <div class="cebrian-member-photo{{ if not $photo }} cebrian-member-initials{{ end }}">
-                {{- if $photo -}}
-                  <img src="{{ $photo }}" alt="{{ $name }}">
-                {{- else -}}
-                  <span>{{ upper $initials }}</span>
-                {{- end -}}
-              </div>
-              <div class="cebrian-member-body">
-                <p class="cebrian-eyebrow">{{ .role }}</p>
-                <h3>{{ $name }}</h3>
-                {{- with .position }}<p class="cebrian-muted">{{ . }}</p>{{ end -}}
-                {{- with $affiliation }}<p class="cebrian-muted">{{ . }}</p>{{ end -}}
-                {{- with $bio }}<p>{{ . }}</p>{{ end -}}
-                {{- with .research_areas -}}
-                  <div class="cebrian-tags">
-                    {{- range first 5 . -}}<span>{{ . }}</span>{{- end -}}
-                  </div>
-                {{- end -}}
-                <div class="cebrian-link-row cebrian-social-links">
-                  {{- with .email }}<a href="mailto:{{ . }}" aria-label="Email {{ $name }}"><i class="fas fa-envelope"></i><span>Email</span></a>{{ end -}}
-                  {{- with .personal_website }}<a href="{{ . }}" aria-label="Website {{ $name }}"><i class="fas fa-globe"></i><span>Website</span></a>{{ end -}}
-                  {{- with .google_scholar }}<a href="{{ . }}" aria-label="Google Scholar {{ $name }}"><i class="ai ai-google-scholar"></i><span>Scholar</span></a>{{ end -}}
-                  {{- with .orcid }}<a href="{{ . }}" aria-label="ORCID {{ $name }}"><i class="ai ai-orcid"></i><span>ORCID</span></a>{{ end -}}
-                  {{- with .researchgate }}<a href="{{ . }}" aria-label="ResearchGate {{ $name }}"><i class="fab fa-researchgate"></i><span>ResearchGate</span></a>{{ end -}}
-                  {{- with .github }}<a href="{{ . }}" aria-label="GitHub {{ $name }}"><i class="fab fa-github"></i><span>GitHub</span></a>{{ end -}}
-                  {{- with .linkedin }}<a href="{{ . }}" aria-label="LinkedIn {{ $name }}"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a>{{ end -}}
-                </div>
-              </div>
-            </article>
+            {{- template "team-card" (dict "member" .) -}}
           {{- end -}}
         </div>
       </section>

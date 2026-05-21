@@ -1,28 +1,36 @@
-{{- $publications := first 4 (sort site.Data.publications "year" "desc") -}}
+{{- $publications := site.Data.publications | default slice -}}
+{{- $selected := where $publications "featured" true -}}
+{{- if eq (len $selected) 0 -}}{{- $selected = where $publications "selected" true -}}{{- end -}}
+{{- if eq (len $selected) 0 -}}{{- $selected = where $publications "highlight" true -}}{{- end -}}
+{{- if eq (len $selected) 0 -}}{{- $selected = $publications -}}{{- end -}}
+{{- $items := first 4 (sort $selected "year" "desc") -}}
 
-<div class="cebrian-publication-list">
-  {{- range $publications -}}
-    {{- $authors := delimit .authors ", " -}}
+<div class="cebrian-selected-publications">
+  {{- range $items -}}
+    {{- $authors := "" -}}
+    {{- with .authors }}{{ $authors = delimit . ", " }}{{ end -}}
     {{- $doi := .doi | default "" -}}
     {{- $doiURL := "" -}}
     {{- if $doi -}}
-      {{- if strings.HasPrefix $doi "http" -}}
+      {{- if hasPrefix $doi "http" -}}
         {{- $doiURL = $doi -}}
       {{- else -}}
         {{- $doiURL = printf "https://doi.org/%s" $doi -}}
       {{- end -}}
     {{- end -}}
-    <article class="cebrian-publication">
+    <article class="cebrian-publication-card cebrian-selected-publication">
       <div class="cebrian-publication-meta">
         {{- with .year }}<span>{{ . }}</span>{{ end -}}
-        {{- with .type }}<span>{{ replace . "-" " " | title }}</span>{{ end -}}
+        {{- with .type }}<span class="cebrian-publication-badge">{{ replace . "-" " " | title }}</span>{{ end -}}
       </div>
-      <h3>{{ .title }}</h3>
-      {{- with $authors }}<p>{{ . }}</p>{{ end -}}
-      {{- with .venue }}<span>{{ . }}</span>{{ end -}}
-      <div class="cebrian-link-row">
-        {{- with $doiURL }}<a href="{{ . }}">DOI</a>{{ end -}}
-      </div>
+      <h3 class="cebrian-publication-title">{{ .title }}</h3>
+      {{- with $authors }}<p class="cebrian-publication-authors">{{ . }}</p>{{ end -}}
+      {{- with .venue }}<p class="cebrian-publication-venue">{{ . }}</p>{{ end -}}
+      {{- with $doiURL -}}
+        <div class="cebrian-publication-links">
+          <a href="{{ . }}" target="_blank" rel="noopener">DOI</a>
+        </div>
+      {{- end -}}
     </article>
   {{- end -}}
 </div>

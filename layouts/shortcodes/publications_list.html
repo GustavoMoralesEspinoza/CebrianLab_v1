@@ -1,92 +1,95 @@
-{{- $publications := sort site.Data.publications "year" "desc" -}}
-{{- $featured := first 5 $publications -}}
-{{- $groups := slice
-  (dict "key" "journal-article" "title" "Journal Papers" "label" "Journal")
-  (dict "key" "conference-paper" "title" "Conference Papers" "label" "Conference")
-  (dict "key" "preprint" "title" "Preprints" "label" "Preprint")
-  (dict "key" "book-chapter" "title" "Book Chapters" "label" "Book Chapter")
-  (dict "key" "technical-report" "title" "Technical Reports" "label" "Report")
-  (dict "key" "poster" "title" "Posters" "label" "Poster")
-  (dict "key" "thesis" "title" "Theses" "label" "Thesis")
--}}
+{{- $publications := site.Data.publications | default slice -}}
+{{- $members := site.Data.members | default slice -}}
+{{- $sorted := sort $publications "year" "desc" -}}
+{{- $years := slice -}}
+{{- range $sorted -}}
+  {{- if and .year (not (in $years .year)) -}}
+    {{- $years = $years | append .year -}}
+  {{- end -}}
+{{- end -}}
 
-<div class="cebrian-publications-directory">
-  {{- if $featured -}}
-    <section class="cebrian-publication-group">
-      <h2>Featured Publications</h2>
-      <div class="cebrian-publication-list">
-        {{- range $featured -}}
-          {{- $authors := delimit .authors ", " -}}
+<div class="cebrian-publications-page">
+  {{- range $years -}}
+    {{- $year := . -}}
+    {{- $items := where $sorted "year" $year -}}
+    <section class="cebrian-publications-section">
+      <h2 class="cebrian-publication-year">{{ $year }}</h2>
+      <div class="cebrian-publication-list cebrian-publication-year-list">
+        {{- range sort $items "title" "asc" -}}
+          {{- $type := .type | default "" -}}
+          {{- $typeLabel := cond $type (replace $type "-" " " | title) "" -}}
+          {{- $authors := "" -}}
+          {{- with .authors }}{{ $authors = delimit . ", " }}{{ end -}}
           {{- $doi := .doi | default "" -}}
           {{- $doiURL := "" -}}
           {{- if $doi -}}
-            {{- if strings.HasPrefix $doi "http" -}}
+            {{- if hasPrefix $doi "http" -}}
               {{- $doiURL = $doi -}}
             {{- else -}}
               {{- $doiURL = printf "https://doi.org/%s" $doi -}}
             {{- end -}}
           {{- end -}}
-          <article class="cebrian-publication">
+          {{- $links := slice -}}
+          {{- with $doiURL }}{{ $links = $links | append (dict "label" "DOI" "href" .) }}{{ end -}}
+          {{- with .url -}}
+            {{- if ne . $doiURL -}}
+              {{- $links = $links | append (dict "label" "URL" "href" .) -}}
+            {{- end -}}
+          {{- end -}}
+          {{- with .pdf }}{{ $links = $links | append (dict "label" "PDF" "href" (. | relURL)) }}{{ end -}}
+          {{- with .pdf_url }}{{ $links = $links | append (dict "label" "PDF" "href" .) }}{{ end -}}
+          {{- with .code }}{{ $links = $links | append (dict "label" "Code" "href" .) }}{{ end -}}
+          {{- with .code_url }}{{ $links = $links | append (dict "label" "Code" "href" .) }}{{ end -}}
+          {{- with .poster }}{{ $links = $links | append (dict "label" "Poster" "href" (. | relURL)) }}{{ end -}}
+          {{- with .poster_url }}{{ $links = $links | append (dict "label" "Poster" "href" .) }}{{ end -}}
+          {{- with .presentation }}{{ $links = $links | append (dict "label" "Presentation" "href" (. | relURL)) }}{{ end -}}
+          {{- with .presentation_url }}{{ $links = $links | append (dict "label" "Presentation" "href" .) }}{{ end -}}
+
+          <article class="cebrian-publication-card">
             <div class="cebrian-publication-meta">
+              {{- with $typeLabel }}<span class="cebrian-publication-badge">{{ . }}</span>{{ end -}}
               {{- with .year }}<span>{{ . }}</span>{{ end -}}
-              {{- with .type }}<span>{{ replace . "-" " " | title }}</span>{{ end -}}
             </div>
-            <h3>{{ .title }}</h3>
-            {{- with $authors }}<p>{{ . }}</p>{{ end -}}
-            {{- with .venue }}<span>{{ . }}</span>{{ end -}}
+            <h3 class="cebrian-publication-title">{{ .title }}</h3>
+            {{- with $authors }}<p class="cebrian-publication-authors">{{ . }}</p>{{ end -}}
+            {{- with .venue }}<p class="cebrian-publication-venue">{{ . }}</p>{{ end -}}
+            {{- with .volume_issue_pages }}<p class="cebrian-publication-venue">{{ . }}</p>{{ end -}}
+
+            {{- with .related_members -}}
+              <p class="cebrian-publication-related">
+                <strong>Related members:</strong>
+                {{- $names := slice -}}
+                {{- range . -}}
+                  {{- $memberID := . -}}
+                  {{- $display := $memberID -}}
+                  {{- range $members -}}
+                    {{- if eq .id $memberID -}}
+                      {{- $display = .display_name | default .name -}}
+                    {{- end -}}
+                  {{- end -}}
+                  {{- $names = $names | append $display -}}
+                {{- end -}}
+                <span>{{ delimit $names ", " }}</span>
+              </p>
+            {{- end -}}
+
             {{- with .keywords -}}
-              <div class="cebrian-tags">
-                {{- range first 5 . -}}<span>{{ . }}</span>{{- end -}}
+              <div class="cebrian-publication-tags" aria-label="Publication keywords">
+                {{- range first 8 . -}}<span>{{ . }}</span>{{- end -}}
               </div>
             {{- end -}}
-            <div class="cebrian-link-row">
-              {{- with $doiURL }}<a href="{{ . }}">DOI</a>{{ end -}}
-            </div>
+
+            {{- if or (gt (len $links) 0) .source -}}
+              <div class="cebrian-publication-links">
+                {{- range $links -}}
+                  <a href="{{ .href }}"{{ if hasPrefix .href "http" }} target="_blank" rel="noopener"{{ end }}>{{ .label }}</a>
+                {{- end -}}
+                {{- with .source }}<span>{{ . }}</span>{{ end -}}
+              </div>
+            {{- end -}}
           </article>
         {{- end -}}
       </div>
     </section>
-  {{- end -}}
-
-  {{- range $groups -}}
-    {{- $group := where $publications "type" .key -}}
-    {{- if $group -}}
-      {{- $label := .label -}}
-      <section class="cebrian-publication-group">
-        <h2>{{ .title }}</h2>
-        <div class="cebrian-publication-list">
-          {{- range $group -}}
-            {{- $authors := delimit .authors ", " -}}
-            {{- $doi := .doi | default "" -}}
-            {{- $doiURL := "" -}}
-            {{- if $doi -}}
-              {{- if strings.HasPrefix $doi "http" -}}
-                {{- $doiURL = $doi -}}
-              {{- else -}}
-                {{- $doiURL = printf "https://doi.org/%s" $doi -}}
-              {{- end -}}
-            {{- end -}}
-            <article class="cebrian-publication">
-              <div class="cebrian-publication-meta">
-                {{- with .year }}<span>{{ . }}</span>{{ end -}}
-                <span>{{ $label }}</span>
-                {{- if eq .doi_verified true }}<span>DOI verified</span>{{ end -}}
-              </div>
-              <h3>{{ .title }}</h3>
-              {{- with $authors }}<p>{{ . }}</p>{{ end -}}
-              {{- with .venue }}<span>{{ . }}</span>{{ end -}}
-              {{- with .keywords -}}
-                <div class="cebrian-tags">
-                  {{- range first 5 . -}}<span>{{ . }}</span>{{- end -}}
-                </div>
-              {{- end -}}
-              <div class="cebrian-link-row">
-                {{- with $doiURL }}<a href="{{ . }}">DOI</a>{{ end -}}
-              </div>
-            </article>
-          {{- end -}}
-        </div>
-      </section>
-    {{- end -}}
   {{- end -}}
 </div>

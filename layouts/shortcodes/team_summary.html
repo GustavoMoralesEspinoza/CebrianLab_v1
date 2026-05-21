@@ -1,19 +1,28 @@
-{{- $members := where site.Data.members "active" "!=" false -}}
+{{- $members := site.Data.members | default slice -}}
+{{- $active := where $members "active" "!=" false -}}
 {{- $categories := slice
   (dict "key" "professor" "label" "Faculty")
+  (dict "key" "researcher" "label" "Researchers")
+  (dict "key" "postdoc" "label" "Postdoctoral Researchers")
   (dict "key" "phd_student" "label" "PhD Students")
   (dict "key" "msc_student" "label" "MSc Students")
   (dict "key" "msc_researcher" "label" "MSc Researchers")
   (dict "key" "undergraduate_student" "label" "Undergraduate Students")
-  (dict "key" "external_collaborator" "label" "Collaborators")
+  (dict "key" "external_collaborator" "label" "External Collaborators")
+  (dict "key" "collaborator" "label" "Collaborators")
   (dict "key" "alumni" "label" "Alumni")
 -}}
 
-<div class="cebrian-stat-grid">
-  {{- range $categories -}}
-    {{- $count := len (where $members "category" .key) -}}
-    {{- if gt $count 0 -}}
-      <div class="cebrian-stat"><strong>{{ $count }}</strong><span>{{ .label }}</span></div>
+<div class="cebrian-team-summary">
+  <div class="cebrian-stat-grid">
+    {{- range $categories -}}
+      {{- $count := len (where $active "category" .key) -}}
+      {{- if gt $count 0 -}}
+        <div class="cebrian-stat"><strong>{{ $count }}</strong><span>{{ .label }}</span></div>
+      {{- end -}}
     {{- end -}}
-  {{- end -}}
+  </div>
+  <div class="cebrian-centered-action">
+    <a class="btn btn-primary" href="{{ "team/" | relURL }}">Meet the team</a>
+  </div>
 </div>
